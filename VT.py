@@ -60,7 +60,7 @@ async def on_message(message):
 
     if message.content.startswith("!주간"):
         embed = discord.Embed(
-            title="2019/08/21-27",
+            title="2019/08/28-09/03",
             description="",
             color=0xffdc5d
         )
@@ -71,19 +71,19 @@ async def on_message(message):
         )
         embed.add_field(
             name="화약고",
-            value="뒤엉킨 해안"
+            value="이오"
         )
         embed.add_field(
             name="꿈의 도시 저주",
-            value="2주차"
+            value="3주차"
         )
         embed.add_field(
             name="승천",
-            value="케레스의 스파인"
+            value="전령의 은둔지"
         )
         embed.add_field(
             name="시련의 장",
-            value="대결"
+            value="강철 깃발"
         )
         embed.add_field(
             name="거미 현상금",
@@ -91,23 +91,25 @@ async def on_message(message):
         )
         embed.add_field(
             name="확대 프로토콜",
-            value="IKELOS_SR_v1.0.1"
+            value="""IKELOS_SG_v1.0.1
+            IKELOS_SMG_v1.0.1
+            IKELOS_SR_v1.0.1"""
         )
         embed.add_field(
             name="황혼전",
-            value="""<:Exotic:615302557312614523> 충격 속도 - 엑소더스의 추락
-                  <:Legendary:615302557535043635> D.F.A. - 확률의 나무
+            value="""<:Exotic:615302557312614523> 브레이테크 물수리 - 생소한 지형
+                  <:Legendary:615302557535043635> 감시관의 법률 - 무의 감시관
                   <:Legendary:615302557535043635> 최소한의 공포 - 부패한 자"""
         )
         embed.add_field(
             name="레이드",
-            value="""슬픔의 왕관: 전력투구
-                  과거의 고통: 십인십색
-                  마지막 소원: 기억의 힘
+            value="""슬픔의 왕관: 제한된 축복
+                  과거의 고통: 현상 유지
+                  마지막 소원: 소환 의식
                   
                   리바이어던
-                  ┖ 순서  <:Gauntlet:615302624438255723><:Dog:615302624329072700><:Baths:615302624434061506><:Throne_challenge:615303695046934635>
-                  ┖ 고급  <:Modifier:615302652791750749>무기고 + 자동소총/자동소총/아무거나"""
+                  ┖ 순서  <:Baths_challenge:616005868995084308><:Dog:615302624329072700><:Gauntlet:615302624438255723><:Throne:615302624027082776>
+                  ┖ 고급  <:Modifier_2:616007448070717450>검투사 + 보조무기/정찰소총/검"""
         )
         await message.channel.send(embed=embed)
 
