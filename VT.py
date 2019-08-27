@@ -1,11 +1,12 @@
 # -*- coding:utf-8 -*-
 import asyncio
 import discord
+import os
 
 client = discord.Client()
 
 # 토큰입력
-token = "NjE1MDIwNTYyNzM3MjY2NzEz.XWKIRQ.rFjcJ4aeRYEcMY4Vr0fH9VXDE5o"
+token = ""
 
 
 # 봇이 켜졌을때
@@ -535,4 +536,5 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
 
-client.run(token)
+access_token=os.environ["BOT_TOKEN"]
+client.run(access_token)
