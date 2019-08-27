@@ -97,7 +97,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="황혼전",
-            value="""<:Exotic:615302557312614523> 브레이테크 물수리 - 생소한 지형
+            value="""<:Legendary:615302557535043635> 브레이테크 물수리 - 생소한 지형
                   <:Legendary:615302557535043635> 감시관의 법률 - 무의 감시관
                   <:Legendary:615302557535043635> 최소한의 공포 - 부패한 자"""
         )
