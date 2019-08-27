@@ -6,7 +6,6 @@ import os
 client = discord.Client()
 
 # 토큰입력
-token = ""
 
 
 # 봇이 켜졌을때
