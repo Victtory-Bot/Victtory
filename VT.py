@@ -566,5 +566,17 @@ __1m 38s__
             value="[초대](https://discord.gg/MNGnYAq)"
         )
         await message.channel.send(embed=embed)
+
+    if message.content.startswith("!위자드"):
+        embed = discord.Embed(
+            title="위자드 어린이",
+            description="닭강정 사 먹었나요?",
+            color=0xffdc5d
+        )
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/616092423428243471/Wizard_2.png"
+        )
+        await message.channel.send(embed=embed)
+        
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
