@@ -556,6 +556,25 @@ async def on_message(message):
             value="[구독](https://www.youtube.com/channel/UC5EsXpxVE_4KpBQXt6CE1Bg)"
         )
         await message.channel.send(embed=embed)
-
+        
+    if message.content.startswith("!고웅"):
+        embed = discord.Embed(
+            title="고웅",
+            description="""종합 게임 스트리머
+            방송시간: 아주 지맘대로임""",
+            color=0xffdc5d
+        )
+        embed.set_thumbnail(
+            url="https://cdn.discordapp.com/attachments/616026203299643435/616072719275917313/Go_woong.png"
+        )
+        embed.add_field(
+            name="Twitch",
+            value="[팔로우](https://www.twitch.tv/gowoong)"
+        )
+        embed.add_field(
+            name="Discord",
+            value="[초대](https://discord.gg/)"
+        )
+        await message.channel.send(embed=embed)
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
