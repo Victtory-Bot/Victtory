@@ -493,7 +493,7 @@ async def on_message(message):
         
     if message.content.startswith("!멋진 모습"):
         embed = discord.Embed(
-            title="멋진 모습",
+            title="<:Primary:616415730086313985><:Kinetic:616415812437147679>멋진 모습 - 자동 소총",
             description="*출처: 매우 희귀한 월드 전리품인 경이 엔그램*",
             color=0xffdc5d
         )
@@ -505,8 +505,8 @@ async def on_message(message):
             value="탄창이 커집니다. 비조준 사격 시 정확도가 증가합니다."
         )
         embed.add_field(
-            name="걸작 특성｜영업 시간",
-            value="방아쇠를 길게 누르면 이 무기의 사거리와 발사 속도가 증폭되고, 획득한 탄약을 자동으로 탄창에 장전합니다."
+            name="걸작 특성｜진지한 승부",
+            value="이 무기가 최고 속도로 회전하면 피격 시 경직 시간이 크게 감소합니다."
         )
         embed.add_field(
             name="촉매제 획득처",
