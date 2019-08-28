@@ -501,7 +501,7 @@ async def on_message(message):
             url="https://www.bungie.net/common/destiny2_content/icons/0b10c26856b5978b944848435bf1695c.jpg"
         )
         embed.add_field(
-            name=">>> 경이 본질｜월급날",
+            name="경이 본질｜월급날",
             value="탄창이 커집니다. 비조준 사격 시 정확도가 증가합니다."
         )
         embed.add_field(
@@ -514,7 +514,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="걸작 업그레이드",
-            value="멋진 모습으로 4명 이상 무리 지어 있는 적을 처치하세요.\n**다중 처치 250**"
+            value="멋진 모습으로 4명 이상 무리 지어 있는 적을 처치하세요.\n**> 다중 처치 250**"
         )
         await message.channel.send(embed=embed)
         
