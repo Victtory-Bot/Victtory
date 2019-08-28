@@ -536,6 +536,26 @@ async def on_message(message):
             inline=False
         )
         await message.channel.send(embed=embed)
+        
+    if message.content.startswith("!도램쥐"):
+        embed = discord.Embed(
+            title="도램쥐",
+            description="""종합 게임 스트리머
+            방송시간: 수, 목 저녁 9시 이후""",
+            color=0xffdc5d
+        )
+        embed.set_thumbnail(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/616062751848136918/Doram_G.png"
+        )
+        embed.add_field(
+            name="Twitch",
+            value="[팔로우](https://www.twitch.tv/s2doram_g)"
+        )
+        embed.add_field(
+            name="YouTube",
+            value="[구독](https://www.youtube.com/channel/UC5EsXpxVE_4KpBQXt6CE1Bg)"
+        )
+        await message.channel.send(embed=embed)
 
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
