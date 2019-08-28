@@ -573,7 +573,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="Discord",
-            value="[초대](https://discord.gg/)"
+            value="[초대](https://discord.gg/G3aJM3J)"
         )
         await message.channel.send(embed=embed)
 access_token=os.environ["BOT_TOKEN"]
