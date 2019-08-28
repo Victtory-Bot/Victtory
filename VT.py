@@ -497,9 +497,6 @@ async def on_message(message):
             description="*출처: 매우 희귀한 월드 전리품인 경이 엔그램*",
             color=0xffdc5d
         )
-        embed.set_author(
-            name="경이｜자동 소총"
-        )
         embed.set_thumbnail(
             url="https://www.bungie.net/common/destiny2_content/icons/0b10c26856b5978b944848435bf1695c.jpg"
         )
@@ -519,6 +516,9 @@ async def on_message(message):
             name="걸작 업그레이드",
             value="""멋진 모습으로 4명 이상 무리 지어 있는 적을 처치하세요.
             > **다중 처치 250**"""
+        )
+        embed.set_footer(
+            text="경이｜자동 소총"
         )
         await message.channel.send(embed=embed)
         
