@@ -514,7 +514,8 @@ async def on_message(message):
         )
         embed.add_field(
             name="걸작 업그레이드",
-            value="멋진 모습으로 4명 이상 무리 지어 있는 적을 처치하세요.\n**> 다중 처치 250**"
+            value="""멋진 모습으로 4명 이상 무리 지어 있는 적을 처치하세요.
+            > 다중 처치 250**"""
         )
         await message.channel.send(embed=embed)
         
