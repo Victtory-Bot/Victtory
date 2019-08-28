@@ -3,6 +3,17 @@ import asyncio
 import discord
 import os
 
+# 탭 넣어주는 함수
+def list2str(_list, tapping=False):
+    if tapping == False:
+        return "\n".join(_list)
+
+    else:
+        tmp = ""
+        for attr in _list:
+            tmp += "\t%s\n" % attr
+        return tmp
+
 client = discord.Client()
 
 # 토큰입력
@@ -290,26 +301,33 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
     if message.content.startswith("!결단"):
+
+        orix_values = ["생존 가방(기관단총)",
+        "__여분의 배급 식량(핸드 캐논)__",
+        "영혼을 갉아먹는 허기(자동 소총)",
+        "종말의 날(유탄 발사기)",
+        "필사적인 생존(파동 소총)"]
+
+        sword_values = ["고독(보조 무기)",
+        "만약의 경우(검)",
+        "불침번(정찰 소총)",
+        "유일한 생존자(저격총)",
+        "__최후의 승자(산탄총)__"
+        ]
+
         embed = discord.Embed(
             title="결단의 장소",
             description="",
             color=0xffdc5d
         )
+        
         embed.add_field(
             name="오릭스의 화상",
-            value="""생존 가방(기관단총)
-__여분의 배급 식량(핸드 캐논)__
-영혼을 갉아먹는 허기(자동 소총)
-종말의 날(유탄 발사기)
-필사적인 생존(파동 소총)"""
+            value=list2str(orix_values)
         )
         embed.add_field(
             name="검",
-            value="""고독(보조 무기)
-만약의 경우(검)
-불침번(정찰 소총)
-유일한 생존자(저격총)
-__최후의 승자(산탄총)__"""
+            value=list2str(sword_values, tapping=True)
         )
         await message.channel.send(embed=embed)
 
