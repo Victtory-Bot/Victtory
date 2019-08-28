@@ -412,38 +412,8 @@ __3 mins__
         )
         embed.add_field(
             name="세계기록",
-            value="""5m 23s
-3m 17s
-4m 29s
-3m 17s
-2m 58s
--
-5m 32s
-3m 22s
-9m 02s
-__2m 47s__
-6m 28s
-3m 48s
-4m 25s
--
-__1m 59s__
-4m 32s
-3m 37s
-4m 02s
-3m 28s
-__1m 38s__
-3m 11s
-6m 37s
-4m 33s
-4m 49s
--
-3m 13s
-2m 59s
--
-6m 06s
-3m 10s
-2m 52s"""
-        )
+            value="\n".join(["5m 23s", "3m 17s", "4m 29s", "3m 17s", "2m 58s", "-", "5m 32s", "3m 22s", "9m 02s", "__2m 47s__", "6m 28s", "3m 48s", "4m 25s", "-", "__1m 59s__", "4m 32s", "3m 37s", "4m 02s", "3m 28s", "__1m 38s__", "3m 11s", "6m 37s", "4m 33s", "4m 49s", "-", "3m 13s", "2m 59s", "-", "6m 06s", "3m 10s", "2m 52s"])
+)
         await message.channel.send(embed=embed)
 
     if message.content.startswith("!정찰"):
