@@ -301,33 +301,18 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
     if message.content.startswith("!결단"):
-
-        orix_values = ["생존 가방(기관단총)",
-        "__여분의 배급 식량(핸드 캐논)__",
-        "영혼을 갉아먹는 허기(자동 소총)",
-        "종말의 날(유탄 발사기)",
-        "필사적인 생존(파동 소총)"]
-
-        sword_values = ["고독(보조 무기)",
-        "만약의 경우(검)",
-        "불침번(정찰 소총)",
-        "유일한 생존자(저격총)",
-        "__최후의 승자(산탄총)__"
-        ]
-
         embed = discord.Embed(
             title="결단의 장소",
             description="",
             color=0xffdc5d
         )
-        
         embed.add_field(
             name="오릭스의 화상",
-            value=list2str(orix_values)
+            value="""생존 가방(기관단총)\n__여분의 배급 식량(핸드 캐논)__\n영혼을 갉아먹는 허기(자동 소총)\n종말의 날(유탄 발사기)\n필사적인 생존(파동 소총)"""
         )
         embed.add_field(
             name="검",
-            value=list2str(sword_values, tapping=True)
+            value="""고독(보조 무기)\n만약의 경우(검)\n불침번(정찰 소총)\n유일한 생존자(저격총)\n__최후의 승자(산탄총)__"""
         )
         await message.channel.send(embed=embed)
 
