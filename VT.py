@@ -501,7 +501,7 @@ async def on_message(message):
             url="https://www.bungie.net/common/destiny2_content/icons/0b10c26856b5978b944848435bf1695c.jpg"
         )
         embed.add_field(
-            name="경이 본질｜월급날",
+            name=">>> 경이 본질｜월급날",
             value="탄창이 커집니다. 비조준 사격 시 정확도가 증가합니다."
         )
         embed.add_field(
