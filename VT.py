@@ -453,28 +453,28 @@ __1m 38s__
             color=0xffdc5d
         )
         embed.add_field(
-            name="<:patrol_1:615347021141901395> 적 처치｜일정 수의 적을 처치하는 임무",
-            value="",
+            name="<:patrol_1:615347021141901395> 적 처치",
+            value="일정 수의 적을 처치하는 임무",
             inline=False
         )
         embed.add_field(
-            name="<:patrol_2:615347020915539969> 아이템 수집｜특정 적으로부터 아이템을 수집하는 임무",
-            value="",
+            name="<:patrol_2:615347020915539969> 아이템 수집",
+            value="특정 적으로부터 아이템을 수집하는 임무",
             inline=False
         )
         embed.add_field(
-            name="<:patrol_3:615347020932317187> 장소 조사｜특정 장소를 오가며 조사하는 임무",
-            value="",
+            name="<:patrol_3:615347020932317187> 장소 조사",
+            value="특정 장소를 오가며 조사하는 임무",
             inline=False
         )
         embed.add_field(
-            name="<:patrol_4:615347020684591106> 사물 조사｜특정 사물을 스캔하는 임무",
-            value="",
+            name="<:patrol_4:615347020684591106> 사물 조사",
+            value="특정 사물을 스캔하는 임무",
             inline=False
         )
         embed.add_field(
-            name="<:patrol_5:615347021167198258> 표적 처치｜특정 적을 처치하는 임무",
-            value="",
+            name="<:patrol_5:615347021167198258> 표적 처치",
+            value="특정 적을 처치하는 임무",
             inline=False
         )
         await message.channel.send(embed=embed)
