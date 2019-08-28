@@ -326,11 +326,71 @@ async def on_message(message):
         )
         embed.add_field(
             name="임무",
-            value="""1AU\n강탈\n경멸자\n고리\n관문\n귀향\n기술자\n깊이 숨겨진 것\n마지막 부름\n__무시무시한 시험 ★__\n무한 그 너머에\n보복\n분노\n불꽃\n__불패 ★__\n선택받은 자\n순례\n식스\n신성 모독\n__얼음과 그림자 ★__\n연소\n오메가\n유구무언\n유토피아\n작별\n절도\n조류\n출입구\n평원의 노래\n행성 밖 회복\n희망"""
+            value="""1AU
+강탈
+경멸자
+고리
+관문
+귀향
+기술자
+깊이 숨겨진 것
+마지막 부름
+__무시무시한 시험 ★__
+무한 그 너머에
+보복
+분노
+불꽃
+__불패 ★__
+선택받은 자
+순례
+식스
+신성 모독
+__얼음과 그림자 ★__
+연소
+오메가
+유구무언
+유토피아
+작별
+절도
+조류
+출입구
+평원의 노래
+행성 밖 회복
+희망"""
         )
         embed.add_field(
             name="소요시간",
-            value="""13 mins\n6 mins\n13 mins\n7 mins\n6 mins\n-\n12 mins\n7 mins\n15 mins\n__5 mins__\n11 mins\n11 mins\n8 mins\n-\n__4 mins__\n9 mins\n6 mins\n10 mins\n6 mins\n__3 mins__\n7 mins\n12 mins\n12 mins\n8 mins\n-\n7 mins\n10 mins\n6 mins\n9 mins\n7 mins\n7 mins"""
+            value="""13 mins
+6 mins
+13 mins
+7 mins
+6 mins
+-
+12 mins
+7 mins
+15 mins
+__5 mins__
+11 mins
+11 mins
+8 mins
+-
+__4 mins__
+9 mins
+6 mins
+10 mins
+6 mins
+__3 mins__
+7 mins
+12 mins
+12 mins
+8 mins
+-
+7 mins
+10 mins
+6 mins
+9 mins
+7 mins
+7 mins"""
         )
         embed.add_field(
             name="세계기록",
@@ -504,7 +564,7 @@ __1m 38s__
         )
         embed.add_field(
             name="Discord",
-            value="[초대](https://discord.gg/G3aJM3J)"
+            value="[초대](https://discord.gg/MNGnYAq)"
         )
         await message.channel.send(embed=embed)
 access_token=os.environ["BOT_TOKEN"]
