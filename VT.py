@@ -493,9 +493,12 @@ async def on_message(message):
         
     if message.content.startswith("!멋진 모습"):
         embed = discord.Embed(
-            title="멋진 모습 - 자동 소총 <:Kinetic:616415812437147679><:Primary:616415730086313985>",
+            title="멋진 모습 <:Kinetic:616415812437147679><:Primary:616415730086313985>",
             description="*출처: 매우 희귀한 월드 전리품인 경이 엔그램*",
             color=0xffdc5d
+        )
+        embed.set_author(
+            name="경이｜자동 소총"
         )
         embed.set_thumbnail(
             url="https://www.bungie.net/common/destiny2_content/icons/0b10c26856b5978b944848435bf1695c.jpg"
