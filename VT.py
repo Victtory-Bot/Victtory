@@ -494,27 +494,27 @@ async def on_message(message):
     if message.content.startswith("!멋진 모습"):
         embed = discord.Embed(
             title="멋진 모습",
-            description="내 일이 참 마음에 든다니까.",
+            description="*출처: 매우 희귀한 월드 전리품인 경이 엔그램"*,
             color=0xffdc5d
         )
         embed.set_thumbnail(
             url="https://www.bungie.net/common/destiny2_content/icons/0b10c26856b5978b944848435bf1695c.jpg"
         )
         embed.add_field(
-            name="경이 본질",
-            value="월급날｜탄창이 커집니다. 비조준 사격 시 정확도가 증가합니다."
+            name="경이 본질｜월급날",
+            value="탄창이 커집니다. 비조준 사격 시 정확도가 증가합니다."
         )
         embed.add_field(
-            name="걸작 특성",
-            value="영업 시간｜방아쇠를 길게 누르면 이 무기의 사거리와 발사 속도가 증폭되고, 획득한 탄약을 자동으로 탄창에 장전합니다."
+            name="걸작 특성｜영업 시간",
+            value="방아쇠를 길게 누르면 이 무기의 사거리와 발사 속도가 증폭되고, 획득한 탄약을 자동으로 탄창에 장전합니다."
         )
         embed.add_field(
             name="촉매제 획득처",
-            value="영업 시간｜방아쇠를 길게 누르면 이 무기의 사거리와 발사 속도가 증폭되고, 획득한 탄약을 자동으로 탄창에 장전합니다."
+            value="공격전 및 시련의 장"
         )
         embed.add_field(
-            name="업그레이드 방법",
-            value="멋진 모습으로 4명 이상 무리 지어 있는 적을 처치하세요. 다중 처치 250"
+            name="걸작 업그레이드",
+            value="멋진 모습으로 4명 이상 무리 지어 있는 적을 처치하세요./n**다중 처치 250**"
         )
         await message.channel.send(embed=embed)
         
