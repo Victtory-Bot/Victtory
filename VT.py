@@ -378,42 +378,12 @@ __얼음과 그림자 ★__
         )
         embed.add_field(
             name="소요시간",
-            value="""13 mins
-6 mins
-13 mins
-7 mins
-6 mins
--
-12 mins
-7 mins
-15 mins
-__5 mins__
-11 mins
-11 mins
-8 mins
--
-__4 mins__
-9 mins
-6 mins
-10 mins
-6 mins
-__3 mins__
-7 mins
-12 mins
-12 mins
-8 mins
--
-7 mins
-10 mins
-6 mins
-9 mins
-7 mins
-7 mins"""
+            value="\n".join(["13 mins", "6 mins", "13 mins", "7 mins", "6 mins", "-", "12 mins", "7 mins", "15 mins", "__5 mins__", "11 mins", "11 mins", "8 mins", "-", "__4 mins__", "9 mins", "6 mins", "10 mins", "6 mins", "__3 mins__", "7 mins", "12 mins", "12 mins", "8 mins", "-", "7 mins", "10 mins", "6 mins", "9 mins", "7 mins", "7 mins"])
         )
         embed.add_field(
             name="세계기록",
             value="\n".join(["5m 23s", "3m 17s", "4m 29s", "3m 17s", "2m 58s", "-", "5m 32s", "3m 22s", "9m 02s", "__2m 47s__", "6m 28s", "3m 48s", "4m 25s", "-", "__1m 59s__", "4m 32s", "3m 37s", "4m 02s", "3m 28s", "__1m 38s__", "3m 11s", "6m 37s", "4m 33s", "4m 49s", "-", "3m 13s", "2m 59s", "-", "6m 06s", "3m 10s", "2m 52s"])
-)
+        )
         await message.channel.send(embed=embed)
 
     if message.content.startswith("!정찰"):
