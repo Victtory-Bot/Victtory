@@ -560,8 +560,7 @@ async def on_message(message):
     if message.content.startswith("!고웅"):
         embed = discord.Embed(
             title="고웅",
-            description="""종합 게임 스트리머
-            방송시간: 아주 지맘대로임""",
+            description="""종합 게임 스트리머\n방송시간: 아주 지맘대로임""",
             color=0xffdc5d
         )
         embed.set_thumbnail(
