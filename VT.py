@@ -494,7 +494,7 @@ async def on_message(message):
     if message.content.startswith("!멋진 모습"):
         embed = discord.Embed(
             title="멋진 모습",
-            description="*출처: 매우 희귀한 월드 전리품인 경이 엔그램"*,
+            description="*출처: 매우 희귀한 월드 전리품인 경이 엔그램*",
             color=0xffdc5d
         )
         embed.set_thumbnail(
