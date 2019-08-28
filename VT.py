@@ -91,25 +91,17 @@ async def on_message(message):
         )
         embed.add_field(
             name="확대 프로토콜",
-            value="""IKELOS_SG_v1.0.1
-            IKELOS_SMG_v1.0.1
-            IKELOS_SR_v1.0.1"""
+            value="""IKELOS_SG_v1.0.1\nIKELOS_SMG_v1.0.1\nIKELOS_SR_v1.0.1"""
         )
         embed.add_field(
             name="황혼전",
-            value="""<:Legendary:615302557535043635> 브레이테크 물수리 - 생소한 지형
-            <:Legendary:615302557535043635> 감시관의 법률 - 무의 감시관
-            <:Legendary:615302557535043635> 최소한의 공포 - 부패한 자"""
+            value="""<:Legendary:615302557535043635> 브레이테크 물수리 - 생소한 지형\n<:Legendary:615302557535043635> 감시관의 법률 - 무의 감시관\n<:Legendary:615302557535043635> 최소한의 공포 - 부패한 자"""
         )
         embed.add_field(
             name="레이드",
-            value="""슬픔의 왕관: 제한된 축복
-            과거의 고통: 현상 유지
-            마지막 소원: 소환 의식
+            value="""슬픔의 왕관: 제한된 축복\n과거의 고통: 현상 유지\n마지막 소원: 소환 의식
                   
-            리바이어던
-            ┖ 순서  <:Baths_challenge:616005868995084308><:Dog:615302624329072700><:Gauntlet:615302624438255723><:Throne:615302624027082776>
-            ┖ 고급  <:Modifier_2:616007448070717450>검투사 + 보조무기/정찰소총/검"""
+            리바이어던\n┖ 순서  <:Baths_challenge:616005868995084308><:Dog:615302624329072700><:Gauntlet:615302624438255723><:Throne:615302624027082776>\n┖ 고급  <:Modifier_2:616007448070717450>검투사 + 보조무기/정찰소총/검"""
         )
         await message.channel.send(embed=embed)
 
@@ -334,105 +326,45 @@ async def on_message(message):
         )
         embed.add_field(
             name="임무",
-            value="""1AU
-            강탈
-            경멸자
-            고리
-            관문
-            귀향
-            기술자
-            깊이 숨겨진 것
-            마지막 부름
-            __무시무시한 시험 ★__
-            무한 그 너머에
-            보복
-            분노
-            불꽃
-            __불패 ★__
-            선택받은 자
-            순례
-            식스
-            신성 모독
-            __얼음과 그림자 ★__
-            연소
-            오메가
-            유구무언
-            유토피아
-            작별
-            절도
-            조류
-            출입구
-            평원의 노래
-            행성 밖 회복
-            희망"""
+            value="""1AU\n강탈\n경멸자\n고리\n관문\n귀향\n기술자\n깊이 숨겨진 것\n마지막 부름\n__무시무시한 시험 ★__\n무한 그 너머에\n보복\n분노\n불꽃\n__불패 ★__\n선택받은 자\n순례\n식스\n신성 모독\n__얼음과 그림자 ★__\n연소\n오메가\n유구무언\n유토피아\n작별\n절도\n조류\n출입구\n평원의 노래\n행성 밖 회복\n희망"""
         )
         embed.add_field(
             name="소요시간",
-            value="""13 mins
-            6 mins
-            13 mins
-            7 mins
-            6 mins
-            -
-            12 mins
-            7 mins
-            15 mins
-            __5 mins__
-            11 mins
-            11 mins
-            8 mins
-            -
-            __4 mins__
-            9 mins
-            6 mins
-            10 mins
-            6 mins
-            __3 mins__
-            7 mins
-            12 mins
-            12 mins
-            8 mins
-            -
-            7 mins
-            10 mins
-            6 mins
-            9 mins
-            7 mins
-            7 mins"""
+            value="""13 mins\n6 mins\n13 mins\n7 mins\n6 mins\n-\n12 mins\n7 mins\n15 mins\n__5 mins__\n11 mins\n11 mins\n8 mins\n-\n__4 mins__\n9 mins\n6 mins\n10 mins\n6 mins\n__3 mins__\n7 mins\n12 mins\n12 mins\n8 mins\n-\n7 mins\n10 mins\n6 mins\n9 mins\n7 mins\n7 mins"""
         )
         embed.add_field(
             name="세계기록",
             value="""5m 23s
-            3m 17s
-            4m 29s
-            3m 17s
-            2m 58s
-            -
-            5m 32s
-            3m 22s
-            9m 02s
-            __2m 47s__
-            6m 28s
-            3m 48s
-            4m 25s
-            -
-            __1m 59s__
-            4m 32s
-            3m 37s
-            4m 02s
-            3m 28s
-            __1m 38s__
-            3m 11s
-            6m 37s
-            4m 33s
-            4m 49s
-            -
-            3m 13s
-            2m 59s
-            -
-            6m 06s
-            3m 10s
-            2m 52s"""
+3m 17s
+4m 29s
+3m 17s
+2m 58s
+-
+5m 32s
+3m 22s
+9m 02s
+__2m 47s__
+6m 28s
+3m 48s
+4m 25s
+-
+__1m 59s__
+4m 32s
+3m 37s
+4m 02s
+3m 28s
+__1m 38s__
+3m 11s
+6m 37s
+4m 33s
+4m 49s
+-
+3m 13s
+2m 59s
+-
+6m 06s
+3m 10s
+2m 52s"""
         )
         await message.channel.send(embed=embed)
 
