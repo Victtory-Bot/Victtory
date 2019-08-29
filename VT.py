@@ -616,5 +616,16 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)   
         
+    if message.content.startswith("!불닭"):
+        embed = discord.Embed(
+            title="불닭볶음면",
+            description="삼양 불닭볶음면 5+1입\n4,500원",
+            color=0xffdc5d
+        )
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/616722356878049280/bd.png"
+        )
+        await message.channel.send(embed=embed)        
+        
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
