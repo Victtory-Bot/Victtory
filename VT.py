@@ -594,5 +594,16 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
         
+    if message.content.startswith("!블소"):
+        embed = discord.Embed(
+            title="블레이드 앤 소울",
+            description="분소 하지 않습니다.",
+            color=0xffdc5d
+        )
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/616701141253881867/bns.png"
+        )
+        await message.channel.send(embed=embed)
+        
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
