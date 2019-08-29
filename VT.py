@@ -517,6 +517,9 @@ async def on_message(message):
             value="""멋진 모습으로 4명 이상 무리 지어 있는 적을 처치하세요.
             > **다중 처치 250**"""
         )
+        embed.set_footer(
+            text="※ 참고: 대부분의 촉매제는 걸작 완료 후 개조 부품과 같이 슬롯을 눌러 삽입해야 그 특성이 적용됩니다."
+        )
         await message.channel.send(embed=embed)
         
 access_token=os.environ["BOT_TOKEN"]
