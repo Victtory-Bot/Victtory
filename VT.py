@@ -554,5 +554,37 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
         
+    if message.content.startswith("!감시의 날개"):
+        embed = discord.Embed(
+            title="감시의 날개 <:Kinetic:616415812437147679><:Primary:616415730086313985>",
+            description="*출처: 매우 희귀한 월드 전리품인 경이 엔그램\n분류: 파동 소총*",
+            color=0xffdc5d
+        )
+        embed.set_thumbnail(
+            url="https://www.bungie.net/common/destiny2_content/icons/ccc33abaa83f13f08825116c7711890c.jpg"
+        )
+        embed.add_field(
+            name="경이 본질｜가혹한 진실",
+            value="이 무기는 5발의 탄약을 점발사격합니다. 근처의 아군이 죽으면 생명력 재생 효과를 얻고 이동 속도가 증가합니다."
+        )
+        embed.add_field(
+            name="걸작 특성｜완전 자동 방아쇠 시스템",
+            value="방아쇠를 계속 당기고 있으면 이 무기를 완전 자동으로 발사합니다."
+        )
+        embed.add_field(
+            name="촉매제 획득처",
+            value="시련의 장 승리"
+        )
+        embed.add_field(
+            name="걸작 업그레이드",
+            value="""시련의 장에서 감시의 날개로 수호자를 처치하고, 쓰러진 팀원을 위해 복수하여 피에는 피 메달을 획득하세요.
+            > **· 시련의 장 적 처치 250**
+            > **· 피에는 피 메달 5**"""
+        )
+        embed.set_footer(
+            text="※ 참고: 대부분의 촉매제는 걸작 완료 후 개조 부품과 같이 슬롯을 눌러 삽입해야 그 특성이 적용됩니다."
+        )
+        await message.channel.send(embed=embed)
+        
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
