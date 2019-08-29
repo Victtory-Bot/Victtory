@@ -442,63 +442,6 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
         
-    if message.content.startswith("!도램쥐"):
-        embed = discord.Embed(
-            title="도램쥐",
-            description="""종합 게임 스트리머\n방송시간: 수, 목 저녁 9시 이후""",
-            color=0xffdc5d
-        )
-        embed.set_thumbnail(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/616062751848136918/Doram_G.png"
-        )
-        embed.add_field(
-            name="Twitch",
-            value="[팔로우](https://www.twitch.tv/s2doram_g)"
-        )
-        embed.add_field(
-            name="YouTube",
-            value="[구독](https://www.youtube.com/channel/UC5EsXpxVE_4KpBQXt6CE1Bg)"
-        )
-        await message.channel.send(embed=embed)
-        
-    if message.content.startswith("!고웅"):
-        embed = discord.Embed(
-            title="고웅",
-            description="""종합 게임 스트리머\n방송시간: 아주 지맘대로임""",
-            color=0xffdc5d
-        )
-        embed.set_thumbnail(
-            url="https://cdn.discordapp.com/attachments/616026203299643435/616072719275917313/Go_woong.png"
-        )
-        embed.add_field(
-            name="Twitch",
-            value="[팔로우](https://www.twitch.tv/gowoong)"
-        )
-        embed.add_field(
-            name="Discord",
-            value="[초대](https://discord.gg/MNGnYAq)"
-        )
-        await message.channel.send(embed=embed)
-
-    if message.content.startswith("!위자드"):
-        embed = discord.Embed(
-            title="위자드 어린이",
-            description="닭강정 사 먹었나요?",
-            color=0xffdc5d
-        )
-        embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/616092423428243471/Wizard_2.png"
-        )
-        await message.channel.send(embed=embed)
-    
-    if message.content.startswith("!또치"):
-        embed = discord.Embed(
-            title="또치",
-            description="개 관 종\n개 노 답",
-            color=0xffdc5d
-        )
-        await message.channel.send(embed=embed)
-        
     if message.content.startswith("!멋진 모습"):
         embed = discord.Embed(
             title="멋진 모습 <:Kinetic:616415812437147679><:Primary:616415730086313985>",
@@ -605,6 +548,63 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
         
+    if message.content.startswith("!도램쥐"):
+        embed = discord.Embed(
+            title="도램쥐",
+            description="""종합 게임 스트리머\n방송시간: 수, 목 저녁 9시 이후""",
+            color=0xffdc5d
+        )
+        embed.set_thumbnail(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/616062751848136918/Doram_G.png"
+        )
+        embed.add_field(
+            name="Twitch",
+            value="[팔로우](https://www.twitch.tv/s2doram_g)"
+        )
+        embed.add_field(
+            name="YouTube",
+            value="[구독](https://www.youtube.com/channel/UC5EsXpxVE_4KpBQXt6CE1Bg)"
+        )
+        await message.channel.send(embed=embed)
+        
+    if message.content.startswith("!고웅"):
+        embed = discord.Embed(
+            title="고웅",
+            description="""종합 게임 스트리머\n방송시간: 아주 지맘대로임""",
+            color=0xffdc5d
+        )
+        embed.set_thumbnail(
+            url="https://cdn.discordapp.com/attachments/616026203299643435/616072719275917313/Go_woong.png"
+        )
+        embed.add_field(
+            name="Twitch",
+            value="[팔로우](https://www.twitch.tv/gowoong)"
+        )
+        embed.add_field(
+            name="Discord",
+            value="[초대](https://discord.gg/MNGnYAq)"
+        )
+        await message.channel.send(embed=embed)
+
+    if message.content.startswith("!위자드"):
+        embed = discord.Embed(
+            title="위자드 어린이",
+            description="닭강정 사 먹었나요?",
+            color=0xffdc5d
+        )
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/616092423428243471/Wizard_2.png"
+        )
+        await message.channel.send(embed=embed)
+    
+    if message.content.startswith("!또치"):
+        embed = discord.Embed(
+            title="또치",
+            description="개 관 종\n개 노 답",
+            color=0xffdc5d
+        )
+        await message.channel.send(embed=embed)
+        
     if message.content.startswith("!달구"):
         embed = discord.Embed(
             title="죽음의 달구",
@@ -673,7 +673,15 @@ async def on_message(message):
         embed.set_image(
             url="https://cdn.discordapp.com/attachments/615212078453751818/616756864239140886/prt.png"
         )        
-        await message.channel.send(embed=embed)    
+        await message.channel.send(embed=embed)
+        
+    if message.content.startswith("!태웅"):
+        embed = discord.Embed(
+            title="태웅",
+            description="에휴 태웅아..",
+            color=0xffdc5d
+        )
+        await message.channel.send(embed=embed)     
         
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
