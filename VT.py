@@ -605,5 +605,16 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
         
+    if message.content.startswith("!달구"):
+        embed = discord.Embed(
+            title="죽음의 달구",
+            description="달구 다이!",
+            color=0xffdc5d
+        )
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/616715952456728584/dg.png"
+        )
+        await message.channel.send(embed=embed)   
+        
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
