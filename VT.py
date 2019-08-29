@@ -625,7 +625,17 @@ async def on_message(message):
         embed.set_image(
             url="https://cdn.discordapp.com/attachments/615212078453751818/616722356878049280/bd.png"
         )
-        await message.channel.send(embed=embed)        
+        await message.channel.send(embed=embed)
+            if message.content.startswith("!미녕"):
+        embed = discord.Embed(
+            title="기미녕",
+            description="",
+            color=0xffdc5d
+        )
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/616729383230504976/mn.png"
+        )
+        await message.channel.send(embed=embed)
         
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
