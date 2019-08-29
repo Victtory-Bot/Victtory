@@ -597,7 +597,7 @@ async def on_message(message):
     if message.content.startswith("!블소"):
         embed = discord.Embed(
             title="블레이드 앤 소울",
-            description="분소 하지 않습니다.",
+            description="No, NC! 분소 하지 않습니다.",
             color=0xffdc5d
         )
         embed.set_image(
@@ -630,7 +630,7 @@ async def on_message(message):
     if message.content.startswith("!미녕"):
         embed = discord.Embed(
             title="기미녕",
-            description="???: 배그 대장이래서 전적 봤는데,\n차라리 이게 나은 것 같아요.",
+            description="???: 배그 대장이래서 전적 봤거든요?\n와, 차라리 이걸 공개하는 게 맞는 것 같아요.",
             color=0xffdc5d
         )
         embed.set_image(
@@ -662,7 +662,18 @@ async def on_message(message):
         embed.set_image(
             url="https://cdn.discordapp.com/attachments/615212078453751818/616742871294410762/rd.png"
         )        
-        await message.channel.send(embed=embed)        
+        await message.channel.send(embed=embed)
+        
+    if message.content.startswith("!프리텔"):
+        embed = discord.Embed(
+            title="프리텔",
+            description="???: 힙합 계속 했으면 아웃사이더도 털었을 듯?",
+            color=0xffdc5d
+        )
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/616756864239140886/prt.png"
+        )        
+        await message.channel.send(embed=embed)    
         
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
