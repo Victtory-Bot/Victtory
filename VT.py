@@ -626,7 +626,8 @@ async def on_message(message):
             url="https://cdn.discordapp.com/attachments/615212078453751818/616722356878049280/bd.png"
         )
         await message.channel.send(embed=embed)
-            if message.content.startswith("!미녕"):
+        
+    if message.content.startswith("!미녕"):
         embed = discord.Embed(
             title="기미녕",
             description="",
