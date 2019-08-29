@@ -630,13 +630,39 @@ async def on_message(message):
     if message.content.startswith("!미녕"):
         embed = discord.Embed(
             title="기미녕",
-            description="",
+            description="???: 배그 대장이래서 전적 봤는데, 차라리 이게 나은 것 같아요.",
             color=0xffdc5d
         )
         embed.set_image(
             url="https://cdn.discordapp.com/attachments/615212078453751818/616729383230504976/mn.png"
         )
         await message.channel.send(embed=embed)
+        
+    if message.content.startswith("!루엘"):
+        embed = discord.Embed(
+            title="루엘",
+            description="???: 인격이 두 개 같던데요? 조용할 땐 조용한데..\n시끄러울 땐 끝도 없이 시끄럽더라구요..\n암튼 쫌 그래. 저세상 텐션 못 따라가겠어.",
+            color=0xffdc5d
+        )
+        embed.set_thumbnail(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/616738998555115552/luel.png"
+        )
+        embed.add_field(
+            name="Youtube",
+            value="[구독](https://www.youtube.com/channel/UCShgH1SIEg44x0YonQpHeGQ)"
+        )
+        await message.channel.send(embed=embed)
+
+    if message.content.startswith("로닥"):
+        embed = discord.Embed(
+            title="로닥",
+            description="???: 잘 모르겠어요. 뭔 뺙뺙; 뺙치네요.",
+            color=0xffdc5d
+        )
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/616742871294410762/rd.png"
+        )        
+        await message.channel.send(embed=embed)        
         
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
