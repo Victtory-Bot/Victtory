@@ -522,5 +522,36 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
         
+    if message.content.startswith("!질풍"):
+        embed = discord.Embed(
+            title="멋진 모습 <:Kinetic:616415812437147679><:Primary:616415730086313985>",
+            description="*출처: 경이 퀘스트 또는 도전\n분류: 핸드 캐논*",
+            color=0xffdc5d
+        )
+        embed.set_thumbnail(
+            url="https://www.bungie.net/common/destiny2_content/icons/f1a5f7d6232246495f0bc805486669a4.jpg"
+        )
+        embed.add_field(
+            name="경이 본질｜월급날",
+            value="이 무기로 적을 처치하면, 장착한 에너지 무기의 탄창을 예비 탄약을 사용하여 재장전합니다."
+        )
+        embed.add_field(
+            name="걸작 특성｜조작성",
+            value="+40 조작성\n+20 사거리"
+        )
+        embed.add_field(
+            name="촉매제 획득처",
+            value="네소스에서 적 처치"
+        )
+        embed.add_field(
+            name="걸작 업그레이드",
+            value="""질풍과 노도를 모두 장착하고 적을 처치하세요.
+            > **촉매제 삽입, 질풍 처치 500, 노도 처치 500**"""
+        )
+        embed.set_footer(
+            text="※ 참고: 대부분의 촉매제는 걸작 완료 후 개조 부품과 같이 슬롯을 눌러 삽입해야 그 특성이 적용됩니다."
+        )
+        await message.channel.send(embed=embed)
+        
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
