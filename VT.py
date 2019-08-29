@@ -490,6 +490,14 @@ async def on_message(message):
             url="https://cdn.discordapp.com/attachments/615212078453751818/616092423428243471/Wizard_2.png"
         )
         await message.channel.send(embed=embed)
+    
+    if message.content.startswith("!또치"):
+        embed = discord.Embed(
+            title="또치",
+            description="개 관 종\n개 노 답",
+            color=0xffdc5d
+        )
+        await message.channel.send(embed=embed)
         
     if message.content.startswith("!멋진 모습"):
         embed = discord.Embed(
