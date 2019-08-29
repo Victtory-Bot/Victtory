@@ -544,7 +544,7 @@ async def on_message(message):
             value="네소스에서 적 처치"
         )
         embed.add_field(
-            name="걸작 업그레이드",
+            name="> **· 질풍 처치 500　· 노도 처치 500**",
             value="""질풍과 노도를 모두 장착하고 적을 처치하세요.
             > **· 질풍 처치 500　· 노도 처치 500**"""
         )
