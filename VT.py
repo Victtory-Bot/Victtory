@@ -494,7 +494,7 @@ async def on_message(message):
     if message.content.startswith("!멋진 모습"):
         embed = discord.Embed(
             title="멋진 모습 <:Kinetic:616415812437147679><:Primary:616415730086313985>",
-            description="*출처: 매우 희귀한 월드 전리품인 경이 엔그램*",
+            description="*출처: 매우 희귀한 월드 전리품인 경이 엔그램\n분류: 자동 소총*",
             color=0xffdc5d
         )
         embed.set_thumbnail(
@@ -516,9 +516,6 @@ async def on_message(message):
             name="걸작 업그레이드",
             value="""멋진 모습으로 4명 이상 무리 지어 있는 적을 처치하세요.
             > **다중 처치 250**"""
-        )
-        embed.set_footer(
-            text="경이｜자동 소총"
         )
         await message.channel.send(embed=embed)
         
