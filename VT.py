@@ -630,7 +630,7 @@ async def on_message(message):
     if message.content.startswith("!미녕"):
         embed = discord.Embed(
             title="기미녕",
-            description="???: 배그 대장이래서 전적 봤는데, 차라리 이게 나은 것 같아요.",
+            description="???: 배그 대장이래서 전적 봤는데,\n차라리 이게 나은 것 같아요.",
             color=0xffdc5d
         )
         embed.set_image(
