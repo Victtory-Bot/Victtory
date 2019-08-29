@@ -653,7 +653,7 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
 
-    if message.content.startswith("로닥"):
+    if message.content.startswith("!로닥"):
         embed = discord.Embed(
             title="로닥",
             description="???: 잘 모르겠어요. 뭔 뺙뺙; 뺙치네요.",
