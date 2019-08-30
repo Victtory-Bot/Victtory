@@ -741,5 +741,13 @@ async def on_message(message):
         )        
         await message.channel.send(embed=embed)  
         
+    if message.content.startswith("!골든몽"):
+        embed = discord.Embed(
+            title="골든몽",
+            description="안녕하세요~ 날씨가 많이 선선해졌네요. 일교차 크니까 감기 조심하시고 즐겜하세요~!! 좋은 하루^^!!",
+            color=0xffdc5d
+        )
+        await message.channel.send(embed=embed)          
+        
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
