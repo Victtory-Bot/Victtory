@@ -694,5 +694,16 @@ async def on_message(message):
         )        
         await message.channel.send(embed=embed)        
         
+    if message.content.startswith("!시에라"):
+        embed = discord.Embed(
+            title="시에라",
+            description="공무원 시험 합격은 에듀윌",
+            color=0xffdc5d
+        )
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/616806271399755806/117.png"
+        )        
+        await message.channel.send(embed=embed)     
+        
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
