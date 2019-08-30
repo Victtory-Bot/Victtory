@@ -711,7 +711,7 @@ async def on_message(message):
     if message.content.startswith("!븐븐"):
         embed = discord.Embed(
             title="븐븐",
-            description="비록 맵찔이지만. 사회의 매운 맛, 잘 봤구요.\n 제 레고나 사주세요. DM 고고.",
+            description="비록 맵찔이지만. 사회의 매운 맛, 잘 봤구요.\n제 레고나 사주세요. DM 고고.",
             color=0xffdc5d
         )
         embed.set_image(
