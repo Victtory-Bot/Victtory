@@ -681,7 +681,18 @@ async def on_message(message):
             description="에휴 태웅아..",
             color=0xffdc5d
         )
-        await message.channel.send(embed=embed)     
+        await message.channel.send(embed=embed)
+        
+    if message.content.startswith("!지숙"):
+        embed = discord.Embed(
+            title="김지숙",
+            description="???: 19세 군필 여고생?\n맞아? 29세 군필 아냐?",
+            color=0xffdc5d
+        )
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/616796785469292564/js.png"
+        )        
+        await message.channel.send(embed=embed)        
         
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
