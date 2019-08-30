@@ -603,11 +603,14 @@ async def on_message(message):
             description="개 관 종\n개 노 답",
             color=0xffdc5d
         )
+        embed.set_thumbnail(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/616819864987893770/bjh.png"
+        )        
         await message.channel.send(embed=embed)
         
     if message.content.startswith("!달구"):
         embed = discord.Embed(
-            title="죽음의 달구",
+            title="죽음의달구",
             description="달구 다이!",
             color=0xffdc5d
         )
@@ -677,8 +680,8 @@ async def on_message(message):
         
     if message.content.startswith("!태웅"):
         embed = discord.Embed(
-            title="태웅",
-            description="에휴 태웅아..",
+            title="감우:",
+            description="태휴 에웅아..",
             color=0xffdc5d
         )
         await message.channel.send(embed=embed)
@@ -714,6 +717,7 @@ async def on_message(message):
         embed.set_image(
             url="https://cdn.discordapp.com/attachments/615212078453751818/616813696592642073/bnbn.png"
         )        
-        await message.channel.send(embed=embed)           
+        await message.channel.send(embed=embed)      
+        
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
