@@ -717,7 +717,29 @@ async def on_message(message):
         embed.set_image(
             url="https://cdn.discordapp.com/attachments/615212078453751818/616813696592642073/bnbn.png"
         )        
-        await message.channel.send(embed=embed)      
+        await message.channel.send(embed=embed)    
+        
+    if message.content.startswith("!동원"):
+        embed = discord.Embed(
+            title="라면이제삶입니다",
+            description="그는 이제 군인의 삶을 살고 있습니다.",
+            color=0xffdc5d
+        )
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/616823410726535168/dw.png"
+        )        
+        await message.channel.send(embed=embed)
+            
+    if message.content.startswith("!종석"):
+        embed = discord.Embed(
+            title="종석",
+            description="이 정도는 기본이죠.",
+            color=0xffdc5d
+        )
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/616825827857793024/cjs.png"
+        )        
+        await message.channel.send(embed=embed)  
         
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
