@@ -667,7 +667,7 @@ async def on_message(message):
     if message.content.startswith("!프리텔"):
         embed = discord.Embed(
             title="프리텔",
-            description="???: 힙합 계속 했으면 아웃사이더도 털었을 듯?",
+            description="???: 와 진짜 말이 그렇게 많을 수가 없어요.",
             color=0xffdc5d
         )
         embed.set_image(
@@ -705,5 +705,15 @@ async def on_message(message):
         )        
         await message.channel.send(embed=embed)     
         
+    if message.content.startswith("!븐븐"):
+        embed = discord.Embed(
+            title="븐븐",
+            description="공무원 시험 합격은 에듀윌",
+            color=0xffdc5d
+        )
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/616806271399755806/117.png"
+        )        
+        await message.channel.send(embed=embed)           
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
