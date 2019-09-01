@@ -138,7 +138,7 @@ async def on_message(message):
             value=""
         )
         embed.add_field(
-            name="!둘｜'빛나는 열쇠' 상자,
+            name="!둘｜'빛나는 열쇠' 상자",
             value=""
         )
         embed.add_field(
