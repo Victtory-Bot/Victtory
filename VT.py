@@ -135,59 +135,59 @@ async def on_message(message):
         )
         embed.add_field(
             name="!하나｜에테르 열쇠",
-            value=""
+            value="뭔데"
         )
         embed.add_field(
             name="!둘｜'빛나는 열쇠' 상자",
-            value=""
+            value="뭔데"
         )
         embed.add_field(
             name="!셋｜'파워 수' 문양",
-            value=""
+            value="뭔데"
         )
         embed.add_field(
             name="!넷｜슈로 치",
-            value=""
+            value="뭔데"
         )
         embed.add_field(
             name="!다섯｜모르게스",
-            value=""
+            value="뭔데"
         )
         embed.add_field(
             name="!여섯｜금고",
-            value=""
+            value="뭔데"
         )
         embed.add_field(
             name="!일곱｜'Hope For The Future' 재생",
-            value=""
+            value="뭔데"
         )
         embed.add_field(
             name="!여덟｜안전장치 빙의",
-            value=""
+            value="뭔데"
         )
         embed.add_field(
             name="!아홉｜방랑자 빙의",
-            value=""
+            value="뭔데"
         )
         embed.add_field(
             name="!열｜폭죽놀이",
-            value=""
+            value="뭔데"
         )
         embed.add_field(
             name="!열하나｜가면축제",
-            value=""
+            value="뭔데"
         )
         embed.add_field(
             name="!열둘｜페트라의 경주",
-            value=""
+            value="뭔데"
         )
         embed.add_field(
             name="!열셋｜부패한 알",
-            value=""
+            value="뭔데"
         )
         embed.add_field(
             name="!열넷｜샤크스 경 빙의",
-            value=""
+            value="뭔데"
         )
         embed.add_field(
             name="!열다섯｜샤크스 경",
