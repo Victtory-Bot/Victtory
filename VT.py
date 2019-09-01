@@ -163,7 +163,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="!여덟",
-            value="'Hope For The Future'\n노래 재생"""
+            value="' 재생"""
         )
         embed.add_field(
             name="!아홉",
