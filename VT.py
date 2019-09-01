@@ -134,68 +134,68 @@ async def on_message(message):
             color=0xffdc5d
         )
         embed.add_field(
-            name="!하나",
+            name="!first",
             value="에테르 열쇠"
         )
         embed.add_field(
-            name="!둘",
+            name="!second",
             value="'빛나는 열쇠' 상자"
         )
         embed.add_field(
-            name="!셋",
+            name="!third",
             value="'파워 수' 문양"
         )
         embed.add_field(
-            name="!넷",
+            name="!fourth",
             value="슈로 치"
         )
         embed.add_field(
-            name="!다섯",
+            name="!fifth",
             value="모르게스"
         )
         embed.add_field(
-            name="!six",
+            name="!sixth",
             value="금고"
         )
         embed.add_field(
-            name="!Six",
+            name="!seventh",
             value="리븐"
         )
         embed.add_field(
-            name="!여덟",
+            name="!eighth",
             value="음악 재생"
         )
         embed.add_field(
-            name="!아홉",
+            name="!ninth",
             value="안전장치 빙의"
         )
         embed.add_field(
-            name="!열",
+            name="!tenth",
             value="방랑자 빙의"
         )
         embed.add_field(
-            name="!열하나",
+            name="!eleventh",
             value="폭죽 놀이"
         )
         embed.add_field(
-            name="!열둘",
+            name="!twelfth",
             value="가면 축제"
         )
         embed.add_field(
-            name="!열셋",
+            name="!thirteenth",
             value="페트라의 경주"
         )
         embed.add_field(
-            name="!열넷",
+            name="!fourteenth",
             value="부패한 알"
         )
         embed.add_field(
-            name="!열다섯",
+            name="!fifteenth",
             value="샤크스 경 빙의"
         )
         await message.channel.send(embed=embed)
 
-    if message.content.startswith("!하나"):
+    if message.content.startswith("!first"):
         embed = discord.Embed(
             title="첫 번째 소원",
             description="욕구를 충족하려는 소원입니다.",
@@ -206,7 +206,7 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
 
-    if message.content.startswith("!둘"):
+    if message.content.startswith("!second"):
         embed = discord.Embed(
             title="두 번째 소원",
             description="첫 번째 소원이 실현되는지 실제로 확인하기 위한 소원입니다.",
@@ -217,7 +217,7 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
 
-    if message.content.startswith("!셋"):
+    if message.content.startswith("!third"):
         embed = discord.Embed(
             title="세 번째 소원",
             description="다른 사람들에게 성공의 축복을 받으려는 소원입니다.",
@@ -228,7 +228,7 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
 
-    if message.content.startswith("!넷"):
+    if message.content.startswith("!fourth"):
         embed = discord.Embed(
             title="네 번째 소원",
             description="품격있는 몸짱처럼 보이려는 소원입니다.",
@@ -239,7 +239,7 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
 
-    if message.content.startswith("!다섯"):
+    if message.content.startswith("!fifth"):
         embed = discord.Embed(
             title="다섯 번째 소원",
             description="밝은 미래를 비는 소원입니다.",
@@ -250,7 +250,7 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
 
-    if message.content.startswith("!six"):
+    if message.content.startswith("!sixth"):
         embed = discord.Embed(
             title="여섯 번째 소원",
             description="시간을 움직이려는 소원입니다.",
@@ -261,7 +261,7 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
 
-    if message.content.startswith("!sixteen"):
+    if message.content.startswith("!seventh"):
         embed = discord.Embed(
             title="일곱 번째 소원",
             description="곤경에 처한 친구를 도우려는 소원입니다.",
@@ -272,7 +272,7 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
 
-    if message.content.startswith("!여덟"):
+    if message.content.startswith("!eighth"):
         embed = discord.Embed(
             title="여덟 번째 소원",
             description="이곳에 영원히 머무르려는 소원입니다.",
@@ -283,7 +283,7 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
 
-    if message.content.startswith("!아홉"):
+    if message.content.startswith("!ninth"):
         embed = discord.Embed(
             title="아홉 번째 소원",
             description="이곳에 영원히 머무르려는 소원입니다.",
@@ -294,7 +294,7 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
 
-    if message.content.startswith("!열"):
+    if message.content.startswith("!tenth"):
         embed = discord.Embed(
             title="열 번째 소원",
             description="이곳에 영원히 머무르려는 소원입니다.",
@@ -305,7 +305,7 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
 
-    if message.content.startswith("!열하나"):
+    if message.content.startswith("!eleventh"):
         embed = discord.Embed(
             title="열한 번째 소원",
             description="이곳에 영원히 머무르려는 소원입니다.",
@@ -316,7 +316,7 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
 
-    if message.content.startswith("!열둘"):
+    if message.content.startswith("!twelfth"):
         embed = discord.Embed(
             title="열두 번째 소원",
             description="마음을 열어 새로운 아이디어를 떠올리려는 소원입니다.",
@@ -327,7 +327,7 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
 
-    if message.content.startswith("!열셋"):
+    if message.content.startswith("!thirteenth"):
         embed = discord.Embed(
             title="열세 번째 소원",
             description="욕구를 충족할 방법을 알려는 소원입니다.",
@@ -338,7 +338,7 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
 
-    if message.content.startswith("!열넷"):
+    if message.content.startswith("!fourteenth"):
         embed = discord.Embed(
             title="열네 번째 소원",
             description="사랑과 지지를 받으려는 소원입니다.",
@@ -349,7 +349,7 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
 
-    if message.content.startswith("!열다섯"):
+    if message.content.startswith("!fifteenth"):
         embed = discord.Embed(
             title="열다섯 번째 소원",
             description="이건 마음에 들 거야. ─천의 목소리를 내는 리븐",
