@@ -134,64 +134,64 @@ async def on_message(message):
             color=0xffdc5d
         )
         embed.add_field(
-            name="!하나｜에테르 열쇠",
-            value="뭔데"
+            name="!하나",
+            value="에테르 열쇠"
         )
         embed.add_field(
-            name="!둘｜'빛나는 열쇠' 상자",
-            value="뭔데"
+            name="!둘",
+            value="'빛나는 열쇠' 상자"
         )
         embed.add_field(
-            name="!셋｜'파워 수' 문양",
-            value="뭔데"
+            name="!셋",
+            value="'파워 수' 문양"
         )
         embed.add_field(
-            name="!넷｜슈로 치",
-            value="뭔데"
+            name="!넷",
+            value="슈로 치"
         )
         embed.add_field(
-            name="!다섯｜모르게스",
-            value="뭔데"
+            name="!다섯",
+            value="모르게스"
         )
         embed.add_field(
-            name="!여섯｜금고",
-            value="뭔데"
+            name="!여섯",
+            value="금고"
         )
         embed.add_field(
-            name="!일곱｜'Hope For The Future' 재생",
-            value="뭔데"
+            name="!일곱",
+            value="리븐"
         )
         embed.add_field(
-            name="!여덟｜안전장치 빙의",
-            value="뭔데"
+            name="!여덟",
+            value="'Hope For The Future' 재생"
         )
         embed.add_field(
-            name="!아홉｜방랑자 빙의",
-            value="뭔데"
+            name="!아홉",
+            value="안전장치 빙의"
         )
         embed.add_field(
-            name="!열｜폭죽놀이",
-            value="뭔데"
+            name="!열",
+            value="방랑자 빙의"
         )
         embed.add_field(
-            name="!열하나｜가면축제",
-            value="뭔데"
+            name="!열하나",
+            value="폭죽놀이"
         )
         embed.add_field(
-            name="!열둘｜페트라의 경주",
-            value="뭔데"
+            name="!열둘",
+            value="가면축제"
         )
         embed.add_field(
-            name="!열셋｜부패한 알",
-            value="뭔데"
+            name="!열셋",
+            value="페트라의 경주"
         )
         embed.add_field(
-            name="!열넷｜샤크스 경 빙의",
-            value="뭔데"
+            name="!열넷",
+            value="부패한 알"
         )
         embed.add_field(
-            name="!열다섯｜샤크스 경",
-            value="아직 밝혀지지 않았습니다."
+            name="!열다섯",
+            value="샤크스 경 빙의"
         )
         await message.channel.send(embed=embed)
 
