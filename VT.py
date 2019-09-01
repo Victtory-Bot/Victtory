@@ -261,7 +261,7 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
 
-    if message.content.startswith("!Six"):
+    if message.content.startswith("!sixteen"):
         embed = discord.Embed(
             title="일곱 번째 소원",
             description="곤경에 처한 친구를 도우려는 소원입니다.",
