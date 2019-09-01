@@ -154,11 +154,11 @@ async def on_message(message):
             value="모르게스"
         )
         embed.add_field(
-            name="!여섯",
+            name="!six",
             value="금고"
         )
         embed.add_field(
-            name="!일곱",
+            name="!Six",
             value="리븐"
         )
         embed.add_field(
@@ -250,7 +250,7 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
 
-    if message.content.startswith("!여섯"):
+    if message.content.startswith("!six"):
         embed = discord.Embed(
             title="여섯 번째 소원",
             description="시간을 움직이려는 소원입니다.",
@@ -261,7 +261,7 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
 
-    if message.content.startswith("!일곱"):
+    if message.content.startswith("!Six"):
         embed = discord.Embed(
             title="일곱 번째 소원",
             description="곤경에 처한 친구를 도우려는 소원입니다.",
