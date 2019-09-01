@@ -163,7 +163,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="!여덟",
-            value="""폴 매카트니의 곡\n'Hope For The Future' 재생&emsp;"""
+            value="'Hope For The Future'\n노래 재생"""
         )
         embed.add_field(
             name="!아홉",
@@ -175,11 +175,11 @@ async def on_message(message):
         )
         embed.add_field(
             name="!열하나",
-            value="폭죽놀이"
+            value="폭죽 놀이"
         )
         embed.add_field(
             name="!열둘",
-            value="가면축제"
+            value="가면 축제"
         )
         embed.add_field(
             name="!열셋",
