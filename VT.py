@@ -130,7 +130,7 @@ async def on_message(message):
     if message.content.startswith("!소원"):
         embed = discord.Embed(
             title="소원의 벽",
-            description="소원 목록 입니다.",
+            description="소원 목록입니다. 키워드를 찾고 그에 맞는 명령어를 입력하세요.",
             color=0xffdc5d
         )
         embed.add_field(
@@ -163,7 +163,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="!여덟",
-            value="'Hope For The Future' 재생"
+            value="""폴 매카트니의 곡\n'Hope For The Future' 재생&emsp;"""
         )
         embed.add_field(
             name="!아홉",
