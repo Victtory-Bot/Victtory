@@ -828,7 +828,7 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)          
 
-            if message.content.startswith("!역할"):
+    if message.content.startswith("!역할"):
         embed = discord.Embed(
             title="역할 이름 및 조건",
             description="""조건 달성 시 자동으로 역할이 부여됩니다.(일부 역할 제외)\n게임 내 칭호는 클랜에서 최초로 획득한 분에 한해 달아드립니다.""",
@@ -841,7 +841,7 @@ async def on_message(message):
         embed.add_field(
             name="그저 빛",
             value="PVE에서 빛의 보주 45,000개 이상 생성"
-        )        await message.channel.send(embed=embed)            
+        )          
         embed.add_field(
             name="제정신입니까, 휴먼?",
             value="확대 프로토콜 보스 300회 이상 처치"
