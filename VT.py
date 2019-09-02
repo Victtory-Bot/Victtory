@@ -827,6 +827,62 @@ async def on_message(message):
             color=0xffdc5d
         )
         await message.channel.send(embed=embed)          
+
+            if message.content.startswith("!역할"):
+        embed = discord.Embed(
+            title="역할 이름 및 조건",
+            description="""조건 달성 시 자동으로 역할이 부여됩니다.(일부 역할 제외)\n게임 내 칭호는 클랜에서 최초로 획득한 분에 한해 달아드립니다.""",
+            color=0xffdc5d
+        )
+        embed.add_field(
+            name="빛이 나는 솔로",
+            value="조각난 왕관 노다이+솔플 업적 달성"
+        )
+        embed.add_field(
+            name="그저 빛",
+            value="PVE에서 빛의 보주 45,000개 이상 생성"
+        )        await message.channel.send(embed=embed)            
+        embed.add_field(
+            name="제정신입니까, 휴먼?",
+            value="확대 프로토콜 보스 300회 이상 처치"
+        )
+        embed.add_field(
+            name="방앗간을 지나치지 못한 참새",
+            value="공개 이벤트 550회 이상 완료"
+        )        
+        embed.add_field(
+            name="도박광",
+            value="갬빗 플레이 타임 150시간 이상"
+        )
+        embed.add_field(
+            name="일당백",
+            value="침입자로서 K/D 3.5 이상일 때"
+        )
+        embed.add_field(
+            name="초저금리 시대의 저축왕",
+            value="은행에 티끌 25,000개 이상 반납"
+        )      
+        embed.add_field(
+            name="세스코",
+            value="침입자 500회 이상 처치"
+        )
+        embed.add_field(
+            name="적당히를 모르는 수호자",
+            value="잃은 티끌 비율이 14% 이상일 때"
+        )
+        embed.add_field(
+            name="밑 빠진 독",
+            value="잃은 티끌 수 4,500개 이상"
+        )
+        embed.add_field(
+            name="이 수호자는 맨날 죽는 수호자입니다",
+            value="PVE에서 1,200회 이상 부활"
+        )
+        embed.add_field(
+            name="직업이 수호자이신 분!",
+            value="모든 데스티니 가디언즈 유저"
+        )         
+        await message.channel.send(embed=embed)    
         
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
