@@ -360,11 +360,11 @@ async def on_message(message):
     if message.content.startswith("!영광"):
         embed = discord.Embed(
             title="영광 점수",
-            description="시련의 장 경쟁 점수로 가변성을 지님.",
+            description="시련의 장 경쟁 점수",
             color=0xffdc5d
         )
         embed.set_image(
-            url="https://cdn.discordapp.com/attachments/600270081729101824/615007788967657482/--3.png"
+            url="https://cdn.discordapp.com/attachments/615212078453751818/617879839000625153/comp.png"
         )
         await message.channel.send(embed=embed)
 
