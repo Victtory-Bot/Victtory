@@ -361,18 +361,29 @@ async def on_message(message):
         embed = discord.Embed(
             title="영광 점수",
             description="시련의 장 경쟁 점수",
-            color=0x310c0c
+            color=0x532c2c
         )
         embed.set_image(
             url="https://cdn.discordapp.com/attachments/615212078453751818/617879839000625153/comp.png"
         )
         await message.channel.send(embed=embed)
 
+    if message.content.startswith("!악명"):
+        embed = discord.Embed(
+            title="악명 점수",
+            description="갬빗 악명 점수",
+            color=0x2c534a
+        )
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/617914726642352130/gambit.png"
+        )
+        await message.channel.send(embed=embed)
+        
     if message.content.startswith("!결단"):
         embed = discord.Embed(
             title="결단의 장소",
             description="",
-            color=0xffdc5d
+            color=0x2c534a
         )
         embed.add_field(
             name="오릭스의 화상",
