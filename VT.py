@@ -359,23 +359,23 @@ async def on_message(message):
 
     if message.content.startswith("!영광"):
         embed = discord.Embed(
-            title="영광 점수",
-            description="시련의 장 경쟁 점수",
+            title="시련의 장｜영광 점수",
+            description="경쟁 플레이리스트 경기를 통해 획득",
             color=0x532c2c
         )
         embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/617879839000625153/comp.png"
+            url="https://cdn.discordapp.com/attachments/615212078453751818/617927241082339328/comp2.png"
         )
         await message.channel.send(embed=embed)
 
     if message.content.startswith("!악명"):
         embed = discord.Embed(
-            title="악명 점수",
-            description="갬빗 악명 점수",
+            title="갬빗｜악명 점수",
+            description="갬빗 클래식/프라임 활동을 통해 획득",
             color=0x2c534a
         )
         embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/617914726642352130/gambit.png"
+            url="https://cdn.discordapp.com/attachments/615212078453751818/617928041343221762/gambit.png"
         )
         await message.channel.send(embed=embed)
         
