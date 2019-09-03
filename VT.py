@@ -851,7 +851,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="방앗간을 지나치지 못한 참새",
-            value="공개 이벤트 550회 이상 완료\000\000\000\000"
+            value="공개 이벤트 550회 이상 완료\000\000\000\000\000\000"
         )        
         embed.add_field(
             name="도박광",
@@ -859,7 +859,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="일당백",
-            value="침입자로서 K/D 3.5 이상일 때"
+            value="침입자로서 K/D 3.5 이상일 때\000\000\000"
         )
         embed.add_field(
             name="초저금리 시대의 저축왕",
