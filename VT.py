@@ -839,7 +839,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="빛이 나는 솔로",
-            value="조각난 왕관 노다이+솔플 업적 달성"
+            value="조각난 왕관 노다이+솔플 업적 달성\000"
         )
         embed.add_field(
             name="그저 빛",
@@ -851,11 +851,11 @@ async def on_message(message):
         )
         embed.add_field(
             name="방앗간을 지나치지 못한 참새",
-            value="공개 이벤트 550회 이상 완료\000\000\000\000\000\000\000\000\000;"
+            value="공개 이벤트 550회 이상 완료"
         )        
         embed.add_field(
             name="도박광",
-            value="갬빗 플레이 타임 150시간 이상"
+            value="갬빗 플레이 타임 150시간 이상\000\000\000\000\000"
         )
         embed.add_field(
             name="일당백",
@@ -863,7 +863,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="초저금리 시대의 저축왕",
-            value="은행에 티끌 25,000개 이상 반납"
+            value="은행에 티끌 25,000개 이상 반납\000\000\000\000"
         )      
         embed.add_field(
             name="세스코",
@@ -871,7 +871,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="적당히를 모르는 수호자",
-            value="잃은 티끌 비율이 14% 이상일 때"
+            value="잃은 티끌 비율이 14% 이상일 때\000\000\000\000"
         )
         embed.add_field(
             name="밑 빠진 독",
@@ -879,7 +879,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="이 수호자는 맨날 죽는 수호자입니다",
-            value="PVE에서 1,200회 이상 부활"
+            value="PVE에서 1,200회 이상 부활\000\000\000\000\000\000\000\000\000"
         )
         embed.add_field(
             name="직업이 수호자이신 분!",
