@@ -851,7 +851,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="방앗간을 지나치지 못한 참새",
-            value="공개 이벤트 550회 이상 완료\000\000\000\000\000\000"
+            value="공개 이벤트 550회 이상 완료\000\000\000\000\000"
         )        
         embed.add_field(
             name="도박광",
@@ -859,7 +859,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="일당백",
-            value="침입자로서 K/D 3.5 이상일 때\000\000\000"
+            value="침입자로서 K/D 3.5 이상일 때\000\000"
         )
         embed.add_field(
             name="초저금리 시대의 저축왕",
@@ -867,7 +867,7 @@ async def on_message(message):
         )      
         embed.add_field(
             name="세스코",
-            value="침입자 500회 이상 처치"
+            value="침입자 500회 이상 처치\000\000"
         )
         embed.add_field(
             name="적당히를 모르는 수호자",
@@ -875,7 +875,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="밑 빠진 독",
-            value="잃은 티끌 수 4,500개 이상"
+            value="잃은 티끌 수 4,500개 이상\000\000"
         )
         embed.add_field(
             name="이 수호자는 맨날 죽는 수호자입니다",
@@ -883,7 +883,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="직업이 수호자이신 분!",
-            value="모든 데스티니 가디언즈 유저"
+            value="모든 데스티니 가디언즈 유저\000\000"
         )         
         await message.channel.send(embed=embed)    
         
