@@ -71,7 +71,7 @@ async def on_message(message):
 
     if message.content.startswith("!주간"):
         embed = discord.Embed(
-            title="2019/08/28-09/03",
+            title="2019/09/04-09/10",
             description="",
             color=0xffdc5d
         )
@@ -82,37 +82,45 @@ async def on_message(message):
         )
         embed.add_field(
             name="화약고",
-            value="이오"
+            value="화성"
         )
         embed.add_field(
             name="꿈의 도시 저주",
-            value="3주차"
+            value="1주차"
         )
         embed.add_field(
             name="승천",
-            value="전령의 은둔지"
+            value="사라진 희망의 만"
         )
         embed.add_field(
             name="시련의 장",
-            value="강철 깃발"
+            value="봉쇄"
         )
         embed.add_field(
             name="거미 현상금",
-            value="피투성이 대검(이오)"
+            value="방화범 발루스(수성)"
         )
         embed.add_field(
             name="확대 프로토콜",
             value="""IKELOS_SG_v1.0.1\nIKELOS_SMG_v1.0.1\nIKELOS_SR_v1.0.1"""
         )
         embed.add_field(
+            name="영웅 전시장",
+            value="아루낙"
+        )
+        embed.add_field(
+            name="결단의 장소",
+            value="검"
+        )        
+        embed.add_field(
             name="황혼전",
-            value="""<:Legendary:615302557535043635> 브레이테크 물수리 - 생소한 지형\n<:Legendary:615302557535043635> 감시관의 법률 - 무의 감시관\n<:Legendary:615302557535043635> 최소한의 공포 - 부패한 자"""
+            value="""<:Legendary:615302557535043635> 브레이테크 물수리 - 생소한 지형\n<:Legendary:615302557535043635> 벌레 신 현신 - 수천 명의 의지\n<:Legendary:615302557535043635> 최소한의 공포 - 부패한 자"""
         )
         embed.add_field(
             name="레이드",
-            value="""슬픔의 왕관: 제한된 축복\n과거의 고통: 현상 유지\n마지막 소원: 소환 의식
+            value="""슬픔의 왕관: 완전한 승리\n과거의 고통: 하나는 모두를 위해, 모두는 하나를 위해\n마지막 소원: 마녀 찾아내기
             \n
-            리바이어던\n┖ 순서  <:Baths_challenge:616005868995084308><:Dog:615302624329072700><:Gauntlet:615302624438255723><:Throne:615302624027082776>\n┖ 고급  <:Modifier_2:616007448070717450>검투사 + 보조무기/정찰소총/검"""
+            리바이어던\n┖ 순서  <:Baths:615302624434061506><:Gauntlet_challenge:618556999419953174><:Dog:615302624329072700><:Throne:615302624027082776>\n┖ 고급  <:Modifier_3:618557788553084970>프리즘 + 기관단총/아무거나/유탄발사기"""
         )
         await message.channel.send(embed=embed)
 
