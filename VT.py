@@ -390,7 +390,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="오릭스의 화상",
-            value="""생존 가방(기관단총)\n__여분의 배급 식량(핸드 캐논)__\n영혼을 갉아먹는 허기(자동 소총)&emsp;\n종말의 날(유탄 발사기)\n필사적인 생존(파동 소총)"""
+            value="""생존 가방(기관단총)\n__여분의 배급 식량(핸드 캐논)__\n영혼을 갉아먹는 허기(자동 소총)\000\n종말의 날(유탄 발사기)\n필사적인 생존(파동 소총)"""
         )
         embed.add_field(
             name="검",
@@ -851,7 +851,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="방앗간을 지나치지 못한 참새",
-            value="공개 이벤트 550회 이상 완료"
+            value="공개 이벤트 550회 이상 완료\000\000\000\000\000\000\000\000\000;"
         )        
         embed.add_field(
             name="도박광",
