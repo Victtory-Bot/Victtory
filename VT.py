@@ -105,13 +105,9 @@ async def on_message(message):
             value="""IKELOS_SG_v1.0.1\nIKELOS_SMG_v1.0.1\nIKELOS_SR_v1.0.1"""
         )
         embed.add_field(
-            name="영웅 전시장",
-            value="아루낙"
+            name="영웅 전시장｜결단의 장소",
+            value="아루낙｜검"
         )
-        embed.add_field(
-            name="결단의 장소",
-            value="검"
-        )        
         embed.add_field(
             name="황혼전",
             value="""<:Legendary:615302557535043635> 브레이테크 물수리 - 생소한 지형\n<:Legendary:615302557535043635> 벌레 신 현신 - 수천 명의 의지\n<:Legendary:615302557535043635> 최소한의 공포 - 부패한 자"""
@@ -119,8 +115,7 @@ async def on_message(message):
         embed.add_field(
             name="레이드",
             value="""슬픔의 왕관: 완전한 승리\n과거의 고통: 하나는 모두를 위해, 모두는 하나를 위해\n마지막 소원: 마녀 찾아내기
-            \n
-            리바이어던\n┖ 순서  <:Baths:615302624434061506><:Gauntlet_challenge:618556999419953174><:Dog:615302624329072700><:Throne:615302624027082776>\n┖ 고급  <:Modifier_3:618557788553084970>프리즘 + 기관단총/아무거나/유탄발사기"""
+            \n리바이어던\n┖ 순서  <:Baths:615302624434061506><:Gauntlet_challenge:618556999419953174><:Dog:615302624329072700><:Throne:615302624027082776>\n┖ 고급  <:Modifier_3:618557788553084970>프리즘 + 기관단총/아무거나/유탄발사기"""
         )
         await message.channel.send(embed=embed)
 
