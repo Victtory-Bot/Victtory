@@ -859,7 +859,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="일당백",
-            value="침입자로서 K/D 3.5 이상일 때\000\000\000\000\000"
+            value="침입자로서 K/D 3.5 이상일 때\000\000\000"
         )
         embed.add_field(
             name="초저금리 시대의 저축왕",
@@ -867,7 +867,7 @@ async def on_message(message):
         )      
         embed.add_field(
             name="세스코",
-            value="침입자 500회 이상 처치\000\000\000\000\000"
+            value="침입자 500회 이상 처치\000\000\000\000\000\000\000"
         )
         embed.add_field(
             name="적당히를 모르는 수호자",
@@ -883,7 +883,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="직업이 수호자이신 분!",
-            value="모든 데스티니 가디언즈 유저\000\000\000\000\000"
+            value="모든 데스티니 가디언즈 유저\000\000\000\000\000\000"
         )         
         await message.channel.send(embed=embed)    
         
