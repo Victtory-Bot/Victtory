@@ -851,7 +851,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="방앗간을 지나치지 못한 참새",
-            value="공개 이벤트 550회 이상 완료\000\000\000\000\000"
+            value="공개 이벤트 550회 이상 완료\000\000\000\000\000\000"
         )        
         embed.add_field(
             name="도박광",
@@ -867,7 +867,7 @@ async def on_message(message):
         )      
         embed.add_field(
             name="세스코",
-            value="침입자 500회 이상 처치\000\000\000\000\000\000\000"
+            value="침입자 500회 이상 처치\000\000\000\000\000\000"
         )
         embed.add_field(
             name="적당히를 모르는 수호자",
