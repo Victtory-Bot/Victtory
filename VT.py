@@ -843,7 +843,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="그저 빛",
-            value="PVE에서 빛의 보주 45000개 이상 생성"
+            value="PVE에서 빛의 보주 45,000개 이상 생성"
         )          
         embed.add_field(
             name="제정신입니까, 휴먼?",
