@@ -843,7 +843,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="그저 빛",
-            value="PVE에서 빛의 보주 45,000개 이상 생성"
+            value="PVE에서 빛의 보주 45,000개 이상 생성\000"
         )          
         embed.add_field(
             name="제정신입니까, 휴먼?",
@@ -867,7 +867,7 @@ async def on_message(message):
         )      
         embed.add_field(
             name="세스코",
-            value="침입자 500회 이상 처치\000\000\000\000\000\000"
+            value="침입자 500회 이상 처치\000\000\000\000\000\000\000"
         )
         embed.add_field(
             name="적당히를 모르는 수호자",
