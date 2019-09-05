@@ -908,7 +908,18 @@ async def on_message(message):
         embed.set_image(
             url="https://cdn.discordapp.com/attachments/615212078453751818/619001540354768898/Calendar_KO.jpg"
         )        
-        await message.channel.send(embed=embed)          
+        await message.channel.send(embed=embed)       
+        
+    if message.content.startswith("!비버"):
+        embed = discord.Embed(
+            title="어쨌든술집",
+            description="""서울 영등포구 당산로47길 12 1층\n평일 19:00 - 02:00\n주말 19:00 - 02:00\n일요일 휴무""",
+            color=0xffdc5d
+        )
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/619045666789916712/bb.png"
+        )        
+        await message.channel.send(embed=embed)     
         
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
