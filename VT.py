@@ -897,7 +897,18 @@ async def on_message(message):
             value="모든 데스티니 가디언즈 유저",
             inline=False
         )         
-        await message.channel.send(embed=embed)    
+        await message.channel.send(embed=embed) 
+        
+    if message.content.startswith("!캘린더"):
+        embed = discord.Embed(
+            title="캘린더",
+            description="시즌 일정",
+            color=0xffdc5d
+        )
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/619001540354768898/Calendar_KO.jpg"
+        )        
+        await message.channel.send(embed=embed)          
         
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
