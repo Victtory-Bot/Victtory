@@ -913,7 +913,7 @@ async def on_message(message):
     if message.content.startswith("!비버"):
         embed = discord.Embed(
             title="어쨌든술집",
-            description="""서울 영등포구 당산로47길 12 1층\n평일 19:00 - 02:00\n주말 19:00 - 02:00\n일요일 휴무""",
+            description="""서울 영등포구 당산로47길 12 1층\n· 평일 19:00 - 02:00\n· 주말 19:00 - 02:00\n· 일요일 휴무""",
             color=0xffdc5d
         )
         embed.set_image(
