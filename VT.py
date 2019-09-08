@@ -920,6 +920,17 @@ async def on_message(message):
             url="https://cdn.discordapp.com/attachments/615212078453751818/619045666789916712/bb.png"
         )        
         await message.channel.send(embed=embed)     
+
+    if message.content.startswith("!성배"):
+        embed = discord.Embed(
+            title="풍요의 성배",
+            description="무기 레시피",
+            color=0xffdc5d
+        )
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/620100022322724894/recipe.png"
+        )        
+        await message.channel.send(embed=embed)            
         
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
