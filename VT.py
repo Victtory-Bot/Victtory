@@ -930,7 +930,31 @@ async def on_message(message):
         embed.set_image(
             url="https://cdn.discordapp.com/attachments/615212078453751818/620100022322724894/recipe.png"
         )        
-        await message.channel.send(embed=embed)            
+        await message.channel.send(embed=embed)
+
+    if message.content.startswith("!화면공유"):
+        embed = discord.Embed(
+            title="화면공유",
+            description="",
+            color=0xffdc5d
+        )
+        embed.add_field(
+            name="스쿼드",
+            value="Click [link](http://discordapp.com/channels/333653458681069578/610331274544021505)"
+        )
+        embed.add_field(
+            name="화력팀",
+            value="Click [link](http://discordapp.com/channels/333653458681069578/564580117720858625)"
+        )
+        embed.add_field(
+            name="만담방",
+            value="Click [link](http://discordapp.com/channels/333653458681069578/582517225412624385)"
+        )
+        embed.add_field(
+            name="분분",
+            value="Click [link](http://discordapp.com/channels/333653458681069578/619032688564764702)"
+        )
+        await message.channel.send(embed=embed)        
         
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
