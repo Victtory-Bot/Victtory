@@ -958,8 +958,8 @@ async def on_message(message):
 
     if message.content.startswith("!계정이관"):
         embed = discord.Embed(
-            title="계정이관",
-            description="""10월 2일, 데스티니 가디언즈 PC가 Steam으로 이동합니다.\n아래의 링크를 눌러 이관 신청을 완료해주세요.""",
+            title="계정 이관",
+            description="""10월 2일, 데스티니 가디언즈 PC가 Steam으로 이동합니다. 아래 링크를 눌러 이관 신청을 완료해주세요.""",
             color=0xffdc5d
         )
         embed.add_field(
