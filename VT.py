@@ -98,7 +98,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="거미 현상금",
-            value="그레이브타이드 소환자(타이탄)"
+            value="""그레이브타이드\n소환자(타이탄)"""
         )
         embed.add_field(
             name="확대 프로토콜",
