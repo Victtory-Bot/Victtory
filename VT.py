@@ -71,8 +71,8 @@ async def on_message(message):
 
     if message.content.startswith("!주간"):
         embed = discord.Embed(
-            title="2019/09/04-09/10",
-            description="",
+            title="2019/09/11-09/17",
+            description="- 업적의 순간 마지막 주\n- 악명 부스트",
             color=0xffdc5d
         )
         embed.set_author(
@@ -82,40 +82,40 @@ async def on_message(message):
         )
         embed.add_field(
             name="화약고",
-            value="화성"
+            value="네소스"
         )
         embed.add_field(
             name="꿈의 도시 저주",
-            value="1주차"
+            value="2주차"
         )
         embed.add_field(
             name="승천",
-            value="사라진 희망의 만"
+            value="별빛의 방"
         )
         embed.add_field(
             name="시련의 장",
-            value="봉쇄"
+            value="한 쌍"
         )
         embed.add_field(
             name="거미 현상금",
-            value="방화범 발루스(수성)"
+            value="그레이브타이드 소환자(타이탄)"
         )
         embed.add_field(
             name="확대 프로토콜",
-            value="""IKELOS_SG_v1.0.1\nIKELOS_SMG_v1.0.1\nIKELOS_SR_v1.0.1"""
+            value="IKELOS_SG_v1.0.1"
         )
         embed.add_field(
             name="영웅 전시장｜결단의 장소",
-            value="아루낙｜검"
+            value="파고리(히드라)｜오릭스의 화상"
         )
         embed.add_field(
             name="황혼전",
-            value="""<:Legendary:615302557535043635> 브레이테크 물수리 - 생소한 지형\n<:Legendary:615302557535043635> 벌레 신 현신 - 수천 명의 의지\n<:Legendary:615302557535043635> 최소한의 공포 - 부패한 자"""
+            value="""<:Exotic:615302557312614523> 만유의 파동함수 - 정원 세계\n<:Legendary:615302557535043635> 긴 작별 - 통찰의 종착지\n<:Exotic:615302557312614523> 트리크로마티카 - 뒤집어진 첨탑"""
         )
         embed.add_field(
             name="레이드",
-            value="""슬픔의 왕관: 완전한 승리\n과거의 고통: 하나는 모두를 위해, 모두는 하나를 위해\n마지막 소원: 마녀 찾아내기
-            \n리바이어던\n┖ 순서  <:Baths:615302624434061506><:Gauntlet_challenge:618556999419953174><:Dog:615302624329072700><:Throne:615302624027082776>\n┖ 고급  <:Modifier_3:618557788553084970>프리즘 + 기관단총/아무거나/유탄발사기"""
+            value="""슬픔의 왕관: 전력 투구\n과거의 고통: 십인십색\n마지막 소원: 영원한 전투
+            \n리바이어던\n┖ 순서  <:Gauntlet:615302624438255723><:Baths:615302624434061506><:Dog_challenge:621097232971726879><:Throne:615302624027082776>\n┖ 고급  <:Modifier_1:615302652791750749>무기고 + 아무거나/융합 소총/융합 소총"""
         )
         await message.channel.send(embed=embed)
 
