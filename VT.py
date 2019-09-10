@@ -934,25 +934,25 @@ async def on_message(message):
 
     if message.content.startswith("!화면공유"):
         embed = discord.Embed(
-            title="화면공유",
-            description="",
+            title="화면 공유 링크",
+            description="음성채널에 입장한 뒤, 채널명과 일치하는 링크를 클릭하세요.",
             color=0xffdc5d
         )
         embed.add_field(
             name="스쿼드",
-            value="Click [link](http://discordapp.com/channels/333653458681069578/610331274544021505)"
+            value="[스쿼드 채널에서 화면 공유](http://discordapp.com/channels/333653458681069578/610331274544021505)"
         )
         embed.add_field(
             name="화력팀",
-            value="Click [link](http://discordapp.com/channels/333653458681069578/564580117720858625)"
+            value="[화력팀 채널에서 화면공유](http://discordapp.com/channels/333653458681069578/564580117720858625)"
         )
         embed.add_field(
             name="만담방",
-            value="Click [link](http://discordapp.com/channels/333653458681069578/582517225412624385)"
+            value="[만담방 채널에서 화면공유](http://discordapp.com/channels/333653458681069578/582517225412624385)"
         )
         embed.add_field(
             name="분분",
-            value="Click [link](http://discordapp.com/channels/333653458681069578/619032688564764702)"
+            value="[분분 채널에서 화면공유](http://discordapp.com/channels/333653458681069578/619032688564764702)"
         )
         await message.channel.send(embed=embed)        
         
