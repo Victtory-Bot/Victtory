@@ -49,7 +49,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="인원",
-            value="32명"
+            value="37명"
         )
         embed.add_field(
             name="시즌레벨",
