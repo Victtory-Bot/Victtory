@@ -955,6 +955,18 @@ async def on_message(message):
             value="[분분 채널에서 화면 공유](http://discordapp.com/channels/333653458681069578/619032688564764702)"
         )
         await message.channel.send(embed=embed)        
+
+    if message.content.startswith("!계정이관"):
+        embed = discord.Embed(
+            title="계정이관",
+            description="""10월 2일, 데스티니 가디언즈 PC가 Steam으로 이동합니다.\n아래의 링크를 눌러 이관 신청을 완료해주세요.""",
+            color=0xffdc5d
+        )
+        embed.add_field(
+            name="PC 이동",
+            value="[https://www.bungie.net/7/ko/PCMove](https://www.bungie.net/7/ko/PCMove)"
+        )
+        await message.channel.send(embed=embed)      
         
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
