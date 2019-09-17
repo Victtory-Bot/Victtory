@@ -967,6 +967,21 @@ async def on_message(message):
             value="[https://www.bungie.net/7/ko/PCMove](https://www.bungie.net/7/ko/PCMove)"
         )
         await message.channel.send(embed=embed)      
+
+    if message.content.startswith("!이리구"):
+        embed = discord.Embed(
+            title="이리구",
+            description="",
+            color=0xffdc5d
+        )
+        embed.set_thumbnail(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/623541077281865748/049515676baad64f.png"
+        )
+        embed.add_field(
+            name="Youtube",
+            value="[구독](https://www.youtube.com/channel/UCui7NEHSbLiblR3Ttd8fVlw)"
+        )
+        await message.channel.send(embed=embed)        
         
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
