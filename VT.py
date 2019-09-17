@@ -982,6 +982,25 @@ async def on_message(message):
             value="[구독](https://www.youtube.com/channel/UCui7NEHSbLiblR3Ttd8fVlw)"
         )
         await message.channel.send(embed=embed)        
+
+    if message.content.startswith("!핀치):
+        embed = discord.Embed(
+            title="핀치",
+            description="",
+            color=0xffdc5d
+        )
+        embed.set_thumbnail(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/623554300140060682/pinch.jpg"
+        )
+        embed.add_field(
+            name="Twitch",
+            value="[팔로우](https://www.twitch.tv/pinchtv_)"
+        )                                  
+        embed.add_field(
+            name="Youtube",
+            value="[구독](https://www.youtube.com/channel/UCZq4YyjDXSLbOQB9XLFT1Pg)"
+        )
+        await message.channel.send(embed=embed)            
         
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
