@@ -983,7 +983,7 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)        
 
-    if message.content.startswith("!핀치):
+    if message.content.startswith("!핀치"):
         embed = discord.Embed(
             title="핀치",
             description="",
