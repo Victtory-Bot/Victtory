@@ -71,8 +71,8 @@ async def on_message(message):
 
     if message.content.startswith("!주간"):
         embed = discord.Embed(
-            title="2019/09/11-09/17",
-            description="- 업적의 순간 마지막 주\n- 악명 부스트",
+            title="2019/09/18-09/24",
+            description="",
             color=0xffdc5d
         )
         embed.set_author(
@@ -82,40 +82,40 @@ async def on_message(message):
         )
         embed.add_field(
             name="화약고",
-            value="네소스"
+            value="타이탄"
         )
         embed.add_field(
             name="꿈의 도시 저주",
-            value="2주차"
+            value="3주차"
         )
         embed.add_field(
             name="승천",
-            value="별빛의 방"
+            value="아펠리온의 무덤"
         )
         embed.add_field(
             name="시련의 장",
-            value="한 쌍"
+            value="강철 깃발"
         )
         embed.add_field(
             name="거미 현상금",
-            value="""그레이브타이드\n소환자(타이탄)"""
+            value="""침묵의 송곳니\n(EDZ)"""
         )
         embed.add_field(
             name="확대 프로토콜",
-            value="IKELOS_SG_v1.0.1"
+            value="IKELOS_SMG_v1.0.1"
         )
         embed.add_field(
             name="영웅 전시장｜결단의 장소",
-            value="파고리(히드라)｜오릭스의 화상"
+            value="하사피코(미노타우르)｜검(기사)"
         )
         embed.add_field(
             name="황혼전",
-            value="""<:Exotic:615302557312614523> 만유의 파동함수 - 정원 세계\n<:Legendary:615302557535043635> 긴 작별 - 통찰의 종착지\n<:Exotic:615302557312614523> 트리크로마티카 - 뒤집어진 첨탑"""
+            value="""<:Legendary:615302557535043635> 최소한의 공포 - 부패한 자\n<:Legendary:615302557535043635> 긴 작별 - 통찰의 종착지\n<:Exotic:615302557312614523> 충격 속도 - 엑소더스의 추락"""
         )
         embed.add_field(
             name="레이드",
-            value="""슬픔의 왕관: 전력 투구\n과거의 고통: 십인십색\n마지막 소원: 영원한 전투
-            \n리바이어던\n┖ 순서  <:Gauntlet:615302624438255723><:Baths:615302624434061506><:Dog_challenge:621097232971726879><:Throne:615302624027082776>\n┖ 고급  <:Modifier_1:615302652791750749>무기고 + 아무거나/융합 소총/융합 소총"""
+            value="""슬픔의 왕관: 제한된 축복\n과거의 고통: 현상 유지\n마지막 소원: 접근 금지
+            \n리바이어던\n┖ 순서  <:Dog:615302624329072700><:Baths:615302624434061506><:Gauntlet:615302624438255723><:Throne_challenge:615303695046934635>\n┖ 고급  <:Modifier_2:616007448070717450>검투사 + 산탄총/자동 소총/로켓 발사기"""
         )
         await message.channel.send(embed=embed)
 
