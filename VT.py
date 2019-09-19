@@ -637,7 +637,7 @@ async def on_message(message):
             color=0xffdc5d
         )
         embed.set_thumbnail(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/616062751848136918/Doram_G.png"
+            url="https://cdn.discordapp.com/attachments/615212078453751818/624262658547384336/drg.png"
         )
         embed.add_field(
             name="Twitch",
