@@ -733,6 +733,10 @@ async def on_message(message):
             url="https://cdn.discordapp.com/attachments/615212078453751818/616738998555115552/luel.png"
         )
         embed.add_field(
+            name="Twitch",
+            value="[팔로우](https://www.twitch.tv/lc_luel)"
+        )        
+        embed.add_field(
             name="Youtube",
             value="[구독](https://www.youtube.com/channel/UCShgH1SIEg44x0YonQpHeGQ)"
         )
