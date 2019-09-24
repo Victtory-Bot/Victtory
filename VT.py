@@ -550,7 +550,7 @@ async def on_message(message):
             color=0xffdc5d
         )
         embed.set_thumbnail(
-            url="https://cdn.discordapp.com/attachments/616026203299643435/616072719275917313/Go_woong.png"
+            url="https://cdn.discordapp.com/attachments/615212078453751818/626121408405176342/Go_woong.png"
         )
         embed.add_field(
             name="Twitch",
