@@ -72,7 +72,7 @@ async def on_message(message):
     if message.content.startswith("!주간"):
         embed = discord.Embed(
             title="2019/09/25-10/01",
-            description="- 시즌 마지막 주\n- 용맹·악명 부스트)",
+            description="- 시즌 마지막 주\n- 용맹 · 악명 부스트",
             color=0xffdc5d
         )
         embed.set_author(
