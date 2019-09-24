@@ -49,7 +49,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="인원",
-            value="37명"
+            value="38명"
         )
         embed.add_field(
             name="시즌레벨",
@@ -71,8 +71,8 @@ async def on_message(message):
 
     if message.content.startswith("!주간"):
         embed = discord.Embed(
-            title="2019/09/18-09/24",
-            description="",
+            title="2019/09/25-10/01",
+            description="- 시즌 마지막 주\n- 용맹·악명 부스트)",
             color=0xffdc5d
         )
         embed.set_author(
@@ -82,40 +82,40 @@ async def on_message(message):
         )
         embed.add_field(
             name="화약고",
-            value="타이탄"
+            value="화성"
         )
         embed.add_field(
             name="꿈의 도시 저주",
-            value="3주차"
+            value="1주차"
         )
         embed.add_field(
             name="승천",
-            value="아펠리온의 무덤"
+            value="에실라의 정원"
         )
         embed.add_field(
             name="시련의 장",
-            value="강철 깃발"
+            value="아수라장"
         )
         embed.add_field(
             name="거미 현상금",
-            value="""침묵의 송곳니\n(EDZ)"""
+            value="""피투성이 대검\n(이오)"""
         )
         embed.add_field(
             name="확대 프로토콜",
-            value="IKELOS_SMG_v1.0.1"
+            value="IKELOS_SR_v1.0.1"
         )
         embed.add_field(
             name="영웅 전시장｜결단의 장소",
-            value="하사피코(미노타우르)｜검(기사)"
+            value="아루낙(오우거)｜오릭스의 화상"
         )
         embed.add_field(
             name="황혼전",
-            value="""<:Legendary:615302557535043635> 최소한의 공포 - 부패한 자\n<:Legendary:615302557535043635> 긴 작별 - 통찰의 종착지\n<:Exotic:615302557312614523> 충격 속도 - 엑소더스의 추락"""
+            value="""<:Legendary:615302557535043635> 긴 작별 - 통찰의 종착지\n<:Exotic:615302557312614523> 트리크로마티카 - 뒤집어진 첨탑\n<:Legendary:615302557535043635> 벌레 신 현신 - 수천 명의 의지"""
         )
         embed.add_field(
             name="레이드",
-            value="""슬픔의 왕관: 제한된 축복\n과거의 고통: 현상 유지\n마지막 소원: 접근 금지
-            \n리바이어던\n┖ 순서  <:Dog:615302624329072700><:Baths:615302624434061506><:Gauntlet:615302624438255723><:Throne_challenge:615303695046934635>\n┖ 고급  <:Modifier_2:616007448070717450>검투사 + 산탄총/자동 소총/로켓 발사기"""
+            value="""슬픔의 왕관: 완전한 승리\n과거의 고통: 하나는 모두를 위해….\n마지막 소원: 기억의 힘
+            \n리바이어던\n┖ 순서  <:Baths_challenge:616005868995084308><:Gauntlet:615302624438255723><:Dog:615302624329072700><:Throne:615302624027082776>\n┖ 고급  <:Modifier_3:618557788553084970>프리즘 + 핸드 캐논/저격총/아무거나"""
         )
         await message.channel.send(embed=embed)
 
@@ -522,113 +522,7 @@ async def on_message(message):
             value="[bungie.net/ko](https://www.bungie.net/ko)",
             inline=False
         )
-        await message.channel.send(embed=embed)
-        
-    if message.content.startswith("!멋진 모습"):
-        embed = discord.Embed(
-            title="멋진 모습 <:Kinetic:616415812437147679><:Primary:616415730086313985>",
-            description="*출처: 매우 희귀한 월드 전리품인 경이 엔그램\n분류: 자동 소총*",
-            color=0xffdc5d
-        )
-        embed.set_thumbnail(
-            url="https://www.bungie.net/common/destiny2_content/icons/0b10c26856b5978b944848435bf1695c.jpg"
-        )
-        embed.add_field(
-            name="경이 본질｜월급날",
-            value="탄창이 커집니다. 비조준 사격 시 정확도가 증가합니다."
-        )
-        embed.add_field(
-            name="걸작 특성｜진지한 승부",
-            value="이 무기가 최고 속도로 회전하면 피격 시 경직 시간이 크게 감소합니다."
-        )
-        embed.add_field(
-            name="촉매제 획득처",
-            value="공격전 및 시련의 장"
-        )
-        embed.add_field(
-            name="걸작 업그레이드",
-            value="""멋진 모습으로 4명 이상 무리 지어 있는 적을 처치하세요.
-            > **· 다중 처치 250**"""
-        )
-        embed.set_footer(
-            text="※ 참고: 대부분의 촉매제는 걸작 완료 후 개조 부품과 같이 슬롯을 눌러 삽입해야 그 특성이 적용됩니다."
-        )
-        await message.channel.send(embed=embed)
-        
-    if message.content.startswith("!질풍"):
-        embed = discord.Embed(
-            title="질풍 <:Kinetic:616415812437147679><:Primary:616415730086313985>",
-            description="*출처: 경이 퀘스트 또는 도전\n분류: 핸드 캐논*",
-            color=0xffdc5d
-        )
-        embed.set_thumbnail(
-            url="https://www.bungie.net/common/destiny2_content/icons/f1a5f7d6232246495f0bc805486669a4.jpg"
-        )
-        embed.add_field(
-            name="경이 본질｜공범",
-            value="이 무기로 적을 처치하면, 장착한 에너지 무기의 탄창을 예비 탄약을 사용하여 재장전합니다."
-        )
-        embed.add_field(
-            name="걸작 특성｜조작성",
-            value="+40 조작성\n+20 사거리"
-        )
-        embed.add_field(
-            name="촉매제 획득처",
-            value="네소스에서 적 처치"
-        )
-        embed.add_field(
-            name="걸작 업그레이드",
-            value="""질풍과 노도를 모두 장착하고 적을 처치하세요.
-            > **· 질풍 처치 500**
-            > **· 노도 처치 500**"""
-        )
-        embed.set_footer(
-            text="※ 참고: 대부분의 촉매제는 걸작 완료 후 개조 부품과 같이 슬롯을 눌러 삽입해야 그 특성이 적용됩니다."
-        )
-        await message.channel.send(embed=embed)
-        
-    if message.content.startswith("!감시의 날개"):
-        embed = discord.Embed(
-            title="감시의 날개 <:Kinetic:616415812437147679><:Primary:616415730086313985>",
-            description="*출처: 매우 희귀한 월드 전리품인 경이 엔그램\n분류: 파동 소총*",
-            color=0xffdc5d
-        )
-        embed.set_thumbnail(
-            url="https://www.bungie.net/common/destiny2_content/icons/ccc33abaa83f13f08825116c7711890c.jpg"
-        )
-        embed.add_field(
-            name="경이 본질｜가혹한 진실",
-            value="이 무기는 5발의 탄약을 점발사격합니다. 근처의 아군이 죽으면 생명력 재생 효과를 얻고 이동 속도가 증가합니다."
-        )
-        embed.add_field(
-            name="걸작 특성｜완전 자동 방아쇠 시스템",
-            value="방아쇠를 계속 당기고 있으면 이 무기를 완전 자동으로 발사합니다."
-        )
-        embed.add_field(
-            name="촉매제 획득처",
-            value="시련의 장 승리"
-        )
-        embed.add_field(
-            name="걸작 업그레이드",
-            value="""시련의 장에서 감시의 날개로 수호자를 처치하고, 쓰러진 팀원을 위해 복수하여 피에는 피 메달을 획득하세요.
-            > **· 시련의 장 적 처치 250**
-            > **· 피에는 피 메달 5**"""
-        )
-        embed.set_footer(
-            text="※ 참고: 대부분의 촉매제는 걸작 완료 후 개조 부품과 같이 슬롯을 눌러 삽입해야 그 특성이 적용됩니다."
-        )
-        await message.channel.send(embed=embed)
-        
-    if message.content.startswith("!블소"):
-        embed = discord.Embed(
-            title="블레이드 앤 소울",
-            description="No, NC! 분소 하지 않습니다.",
-            color=0xffdc5d
-        )
-        embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/616701141253881867/bns.png"
-        )
-        await message.channel.send(embed=embed)
+        await message.channel.send(embed=embed)        
         
     if message.content.startswith("!도램쥐"):
         embed = discord.Embed(
@@ -652,7 +546,7 @@ async def on_message(message):
     if message.content.startswith("!고웅"):
         embed = discord.Embed(
             title="고웅",
-            description="""종합 게임 스트리머\n방송시간: 아주 지맘대로임""",
+            description="""종합 게임 스트리머""",
             color=0xffdc5d
         )
         embed.set_thumbnail(
@@ -663,70 +557,19 @@ async def on_message(message):
             value="[팔로우](https://www.twitch.tv/gowoong)"
         )
         embed.add_field(
+            name="YouTube",
+            value="[구독](https://www.youtube.com/channel/UCKvDmMKEYTrKDXCRsxcVQaw)"
+        )        
+        embed.add_field(
             name="Discord",
             value="[초대](https://discord.gg/MNGnYAq)"
-        )
-        await message.channel.send(embed=embed)
-
-    if message.content.startswith("!위자드"):
-        embed = discord.Embed(
-            title="위자드 어린이",
-            description="닭강정 사 먹었나요?",
-            color=0xffdc5d
-        )
-        embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/616092423428243471/Wizard_2.png"
-        )
-        await message.channel.send(embed=embed)
-    
-    if message.content.startswith("!또치"):
-        embed = discord.Embed(
-            title="또치",
-            description="개 관 종\n개 노 답",
-            color=0xffdc5d
-        )
-        embed.set_thumbnail(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/616819864987893770/bjh.png"
-        )        
-        await message.channel.send(embed=embed)
-        
-    if message.content.startswith("!달구"):
-        embed = discord.Embed(
-            title="죽음의달구",
-            description="달구 다이!",
-            color=0xffdc5d
-        )
-        embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/616715952456728584/dg.png"
-        )
-        await message.channel.send(embed=embed)   
-        
-    if message.content.startswith("!불닭"):
-        embed = discord.Embed(
-            title="불닭볶음면",
-            description="삼양 불닭볶음면 5+1입\n4,500원",
-            color=0xffdc5d
-        )
-        embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/616722356878049280/bd.png"
-        )
-        await message.channel.send(embed=embed)
-        
-    if message.content.startswith("!미녕"):
-        embed = discord.Embed(
-            title="기미녕",
-            description="???: 배그 대장이래서 전적 봤거든요?\n와 차라리 이걸 공개하는 게 맞는 것 같아요.",
-            color=0xffdc5d
-        )
-        embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/616729383230504976/mn.png"
         )
         await message.channel.send(embed=embed)
         
     if message.content.startswith("!루엘"):
         embed = discord.Embed(
             title="루엘",
-            description="???: 인격이 두 개 같던데요? 조용할 땐 조용한데..\n시끄러울 땐 끝도 없이 시끄럽더라구요..\n암튼 쫌 그래. 저세상 텐션 못 따라가겠어.",
+            description="종합 게임 스트리머",
             color=0xffdc5d
         )
         embed.set_thumbnail(
@@ -742,177 +585,39 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
 
-    if message.content.startswith("!로닥"):
+    if message.content.startswith("!이리구"):
         embed = discord.Embed(
-            title="로닥",
-            description="???: 잘 모르겠어요. 뭔 뺙뺙; 뺙치네요.",
+            title="이리구",
+            description="데스티니 가디언즈 유튜버",
             color=0xffdc5d
         )
-        embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/616742871294410762/rd.png"
-        )        
-        await message.channel.send(embed=embed)
-        
-    if message.content.startswith("!프리텔"):
-        embed = discord.Embed(
-            title="프리텔",
-            description="???: 진짜 말이 그렇게 많을 수가 없어요.",
-            color=0xffdc5d
+        embed.set_thumbnail(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/623541077281865748/049515676baad64f.png"
         )
-        embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/616756864239140886/prt.png"
-        )        
-        await message.channel.send(embed=embed)
-        
-    if message.content.startswith("!태웅"):
-        embed = discord.Embed(
-            title="감우:",
-            description="태휴 에웅아..",
-            color=0xffdc5d
+        embed.add_field(
+            name="Youtube",
+            value="[구독](https://www.youtube.com/channel/UCui7NEHSbLiblR3Ttd8fVlw)"
         )
-        await message.channel.send(embed=embed)
-        
-    if message.content.startswith("!지숙"):
-        embed = discord.Embed(
-            title="김지숙",
-            description="???: 19세 군필 여고생?\n맞아? 29세 군필 아냐?",
-            color=0xffdc5d
-        )
-        embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/616796785469292564/js.png"
-        )        
         await message.channel.send(embed=embed)        
-        
-    if message.content.startswith("!시에라"):
-        embed = discord.Embed(
-            title="시에라",
-            description="공무원 시험 합격은 에듀윌",
-            color=0xffdc5d
-        )
-        embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/616806271399755806/117.png"
-        )        
-        await message.channel.send(embed=embed)     
-        
-    if message.content.startswith("!븐븐"):
-        embed = discord.Embed(
-            title="븐븐",
-            description="비록 맵찔이지만. 사회의 매운 맛, 잘 봤구요.\n제 레고나 사주세요. DM 고고.",
-            color=0xffdc5d
-        )
-        embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/616813696592642073/bnbn.png"
-        )        
-        await message.channel.send(embed=embed)    
-        
-    if message.content.startswith("!동원"):
-        embed = discord.Embed(
-            title="라면이제삶입니다",
-            description="그는 이제 군인의 삶을 살고 있습니다.",
-            color=0xffdc5d
-        )
-        embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/616823410726535168/dw.png"
-        )        
-        await message.channel.send(embed=embed)
-            
-    if message.content.startswith("!종석"):
-        embed = discord.Embed(
-            title="종석",
-            description="이 정도는 기본이죠.",
-            color=0xffdc5d
-        )
-        embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/616825827857793024/cjs.png"
-        )        
-        await message.channel.send(embed=embed)  
-        
-    if message.content.startswith("!골든몽"):
-        embed = discord.Embed(
-            title="골든몽",
-            description="안녕하세요~ 날씨가 많이 선선해졌네요. 일교차 크니까 감기 조심하시고 즐겜하세요~!! 좋은 하루^^!!",
-            color=0xffdc5d
-        )
-        await message.channel.send(embed=embed)          
 
-    if message.content.startswith("!역할"):
+    if message.content.startswith("!핀치"):
         embed = discord.Embed(
-            title="<:check:617951632214458388> 역할 이름 및 조건",
-            description="""조건 달성 시 자동으로 역할이 부여됩니다.(일부 역할 제외)\n게임 내 칭호는 클랜에서 최초로 획득한 분에 한해 달아드립니다.""",
+            title="핀치",
+            description="배틀그라운드 스트리머",
             color=0xffdc5d
         )
-        embed.add_field(
-            name="빛이 나는 솔로",
-            value="조각난 왕관 노다이+솔플 업적 달성",
-            inline=False
+        embed.set_thumbnail(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/623554300140060682/pinch.jpg"
         )
         embed.add_field(
-            name="그저 빛",
-            value="PVE에서 빛의 보주 45,000개 이상 생성",
-            inline=False
-        )          
+            name="Twitch",
+            value="[팔로우](https://www.twitch.tv/pinchtv_)"
+        )                                  
         embed.add_field(
-            name="제정신입니까, 휴먼?",
-            value="확대 프로토콜 보스 300회 이상 처치",
-            inline=False
+            name="Youtube",
+            value="[구독](https://www.youtube.com/channel/UCZq4YyjDXSLbOQB9XLFT1Pg)"
         )
-        embed.add_field(
-            name="방앗간을 지나치지 못한 참새",
-            value="공개 이벤트 550회 이상 완료",
-            inline=False
-        )        
-        embed.add_field(
-            name="도박광",
-            value="갬빗 플레이 타임 150시간 이상",
-            inline=False
-        )
-        embed.add_field(
-            name="일당백",
-            value="침입자로서 K/D 3.5 이상일 때",
-            inline=False
-        )
-        embed.add_field(
-            name="초저금리 시대의 저축왕",
-            value="은행에 티끌 25,000개 이상 반납",
-            inline=False
-        )      
-        embed.add_field(
-            name="세스코",
-            value="침입자 500회 이상 처치",
-            inline=False
-        )
-        embed.add_field(
-            name="적당히를 모르는 수호자",
-            value="잃은 티끌 비율이 14% 이상일 때",
-            inline=False
-        )
-        embed.add_field(
-            name="밑 빠진 독",
-            value="잃은 티끌 수 4,500개 이상",
-            inline=False
-        )
-        embed.add_field(
-            name="이 수호자는 맨날 죽는 수호자입니다",
-            value="PVE에서 1,200회 이상 부활",
-            inline=False
-        )
-        embed.add_field(
-            name="직업이 수호자이신 분!",
-            value="모든 데스티니 가디언즈 유저",
-            inline=False
-        )         
-        await message.channel.send(embed=embed) 
-        
-    if message.content.startswith("!캘린더"):
-        embed = discord.Embed(
-            title="캘린더",
-            description="시즌 일정",
-            color=0xffdc5d
-        )
-        embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/619001540354768898/Calendar_KO.jpg"
-        )        
-        await message.channel.send(embed=embed)       
+        await message.channel.send(embed=embed)
         
     if message.content.startswith("!비버"):
         embed = discord.Embed(
@@ -923,7 +628,18 @@ async def on_message(message):
         embed.set_image(
             url="https://cdn.discordapp.com/attachments/615212078453751818/619045666789916712/bb.png"
         )        
-        await message.channel.send(embed=embed)     
+        await message.channel.send(embed=embed)         
+        
+    if message.content.startswith("!캘린더"):
+        embed = discord.Embed(
+            title="캘린더",
+            description="시즌 일정",
+            color=0xffdc5d
+        )
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/626117742944059392/Destiny_SoU_Calendar_KR.png"
+        )        
+        await message.channel.send(embed=embed)    
 
     if message.content.startswith("!성배"):
         embed = discord.Embed(
@@ -971,40 +687,6 @@ async def on_message(message):
             value="[https://www.bungie.net/7/ko/PCMove](https://www.bungie.net/7/ko/PCMove)"
         )
         await message.channel.send(embed=embed)      
-
-    if message.content.startswith("!이리구"):
-        embed = discord.Embed(
-            title="이리구",
-            description="",
-            color=0xffdc5d
-        )
-        embed.set_thumbnail(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/623541077281865748/049515676baad64f.png"
-        )
-        embed.add_field(
-            name="Youtube",
-            value="[구독](https://www.youtube.com/channel/UCui7NEHSbLiblR3Ttd8fVlw)"
-        )
-        await message.channel.send(embed=embed)        
-
-    if message.content.startswith("!핀치"):
-        embed = discord.Embed(
-            title="핀치",
-            description="",
-            color=0xffdc5d
-        )
-        embed.set_thumbnail(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/623554300140060682/pinch.jpg"
-        )
-        embed.add_field(
-            name="Twitch",
-            value="[팔로우](https://www.twitch.tv/pinchtv_)"
-        )                                  
-        embed.add_field(
-            name="Youtube",
-            value="[구독](https://www.youtube.com/channel/UCZq4YyjDXSLbOQB9XLFT1Pg)"
-        )
-        await message.channel.send(embed=embed)            
         
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
