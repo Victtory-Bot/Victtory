@@ -672,7 +672,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="블소",
-            value="[분분 채널에서 화면 공유](http://discordapp.com/channels/333653458681069578/619032688564764702)"
+            value="[블소 채널에서 화면 공유](http://discordapp.com/channels/333653458681069578/619032688564764702)"
         )
         await message.channel.send(embed=embed)        
 
