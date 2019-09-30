@@ -637,7 +637,7 @@ async def on_message(message):
             color=0xffdc5d
         )
         embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/626117742944059392/Destiny_SoU_Calendar_KR.png"
+            url="https://cdn.discordapp.com/attachments/615212078453751818/628286879984254987/Destiny_SoU_Calendar_KO.png"
         )        
         await message.channel.send(embed=embed)    
 
