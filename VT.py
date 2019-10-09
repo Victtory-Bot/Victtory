@@ -49,11 +49,11 @@ async def on_message(message):
         )
         embed.add_field(
             name="인원",
-            value="38명"
+            value="41명"
         )
         embed.add_field(
             name="시즌레벨",
-            value="Lv.6"
+            value="Lv.2"
         )
         embed.add_field(
             name="관리자",
@@ -71,8 +71,8 @@ async def on_message(message):
 
     if message.content.startswith("!주간"):
         embed = discord.Embed(
-            title="2019/09/25-10/01",
-            description="- 시즌 마지막 주\n- 용맹 · 악명 부스트",
+            title="2019/10/09-10/15",
+            description="- 영웅 악몽 사냥",
             color=0xffdc5d
         )
         embed.set_author(
@@ -82,40 +82,40 @@ async def on_message(message):
         )
         embed.add_field(
             name="화약고",
-            value="화성"
+            value="뒤엉킨 해안"
         )
         embed.add_field(
             name="꿈의 도시 저주",
-            value="1주차"
+            value="3주차"
         )
         embed.add_field(
             name="승천",
-            value="에실라의 정원"
+            value="전령의 은둔지"
         )
         embed.add_field(
             name="시련의 장",
-            value="아수라장"
+            value="4 v 4 소각\n6 v 6 카운트다운"
         )
         embed.add_field(
             name="거미 현상금",
-            value="""피투성이 대검\n(이오)"""
+            value="그레이브타이드\n소환자(타이탄)"
         )
         embed.add_field(
             name="확대 프로토콜",
-            value="IKELOS_SR_v1.0.1"
+            value="IKELOS_SG_v1.0.1\nIKELOS_SMG_v1.0.1\nIKELOS_SR_v1.0.1"
         )
         embed.add_field(
             name="영웅 전시장｜결단의 장소",
-            value="아루낙(오우거)｜오릭스의 화상"
+            value="하사피코(미노타우르)｜오릭스의 화상"
         )
         embed.add_field(
             name="황혼전",
-            value="""<:Legendary:615302557535043635> 긴 작별 - 통찰의 종착지\n<:Exotic:615302557312614523> 트리크로마티카 - 뒤집어진 첨탑\n<:Legendary:615302557535043635> 벌레 신 현신 - 수천 명의 의지"""
+            value="<:Legendary:615302557535043635> 긴 작별 - 통찰의 종착지\n<:Exotic:615302557312614523> 충격 속도 - 엑소더스의 추락\n<:Legendary:615302557535043635> 정신왜곡자의 야망 - 텅 빈 본거지"
         )
         embed.add_field(
             name="레이드",
-            value="""슬픔의 왕관: 완전한 승리\n과거의 고통: 하나는 모두를 위해….\n마지막 소원: 기억의 힘
-            \n리바이어던\n┖ 순서  <:Baths_challenge:616005868995084308><:Gauntlet:615302624438255723><:Dog:615302624329072700><:Throne:615302624027082776>\n┖ 고급  <:Modifier_3:618557788553084970>프리즘 + 핸드 캐논/저격총/아무거나"""
+            value="""슬픔의 왕관: 제한된 축복\n과거의 고통: 현상 유지\n마지막 소원: 마녀 찾아내기
+            \n리바이어던\n┖ 순서  <:Baths:615302624434061506><:Dog_challenge:621097232971726879><:Gauntlet:615302624438255723><:Throne:615302624027082776>\n┖ 고급  <:Modifier_2:616007448070717450>검투사 + 보조 무기/정찰 소총/검"""
         )
         await message.channel.send(embed=embed)
 
