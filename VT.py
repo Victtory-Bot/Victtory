@@ -94,7 +94,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="시련의 장",
-            value="4 v 4 카운트다운\n6 v 6 카운트다운"
+            value="4 v 4 카운트다운\n6 v 6 소각"
         )
         embed.add_field(
             name="거미 현상금",
