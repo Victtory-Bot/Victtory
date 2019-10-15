@@ -71,7 +71,7 @@ async def on_message(message):
 
     if message.content.startswith("!주간"):
         embed = discord.Embed(
-            title="2019/10/09-10/15",
+            title="2019/10/16-10/22",
             description="- 영웅 악몽 사냥",
             color=0xffdc5d
         )
@@ -82,47 +82,47 @@ async def on_message(message):
         )
         embed.add_field(
             name="화약고",
-            value="뒤엉킨 해안"
+            value="이오"
         )
         embed.add_field(
             name="꿈의 도시 저주",
-            value="3주차"
+            value="1주차"
         )
         embed.add_field(
             name="승천",
-            value="전령의 은둔지"
+            value="사라진 희망의 만"
         )
         embed.add_field(
             name="시련의 장",
-            value="4 v 4 카운트다운\n6 v 6 소각"
+            value="강철 깃발\n4 vs 4 봉쇄\n6 vs 6 패권"
         )
         embed.add_field(
             name="거미 현상금",
-            value="그레이브타이드\n소환자(타이탄)"
+            value="아르카디아의 노래\n(네소스)"
         )
         embed.add_field(
             name="확대 프로토콜",
-            value="IKELOS_SG_v1.0.1\nIKELOS_SMG_v1.0.1\nIKELOS_SR_v1.0.1"
+            value="IKELOS_SG_v1.0.1"
         )
         embed.add_field(
             name="영웅 전시장｜결단의 장소",
-            value="하사피코(미노타우르)｜오릭스의 화상"
+            value="아루낙(오우거)｜검(기사)"
         )
         embed.add_field(
             name="황혼전",
-            value="<:Legendary:615302557535043635> 긴 작별 - 통찰의 종착지\n<:Exotic:615302557312614523> 충격 속도 - 엑소더스의 추락\n<:Legendary:615302557535043635> 정신왜곡자의 야망 - 텅 빈 본거지"
+            value="<:Legendary:615302557535043635> 브레이테크 물수리 - 생소한 지형\n<:Exotic:615302557312614523> 틸트 퓨즈 - 무기거래상\n<:Legendary:615302557535043635> ??? - 진홍빛 요새"
         )
         embed.add_field(
             name="레이드",
-            value="""슬픔의 왕관: 제한된 축복\n과거의 고통: 현상 유지\n마지막 소원: 마녀 찾아내기
-            \n리바이어던\n┖ 순서  <:Baths:615302624434061506><:Dog_challenge:621097232971726879><:Gauntlet:615302624438255723><:Throne:615302624027082776>\n┖ 고급  <:Modifier_2:616007448070717450>검투사 + 보조 무기/정찰 소총/검"""
+            value="""슬픔의 왕관: 완전한 승리\n과거의 고통: 하나는 모두를 위해….\n마지막 소원: 영원한 전투
+            \n리바이어던\n┖ 순서  <:Dog:615302624329072700><:Gauntlet:615302624438255723><:Baths:615302624434061506><:Throne_challenge:615303695046934635>\n┖ 고급  <:Modifier_3:618557788553084970>프리즘 + 기관단총/아무거나/유탄 발사기"""
         )
         await message.channel.send(embed=embed)
 
     if message.content.startswith("!조왕"):
         embed = discord.Embed(
             title="조각난 왕관",
-            description="꿈의 도시 저주 3주차에만 입장할 수 있습니다.",
+            description="",
             color=0xffdc5d
         )
         embed.set_image(
