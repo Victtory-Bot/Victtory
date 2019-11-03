@@ -72,7 +72,7 @@ async def on_message(message):
     if message.content.startswith("!주간"):
         embed = discord.Embed(
             title="2019/10/30-11/05",
-            description="- 던전: 이단의 \n- 새로운 PvP모드: 탄력 제어\n- 경이 퀘스트: 제노파지리바이어던의 숨결",
+            description="- 던전: 이단의 구덩이\n- 새로운 PvP모드: 탄력 제어\n- 경이 퀘스트: 제노파지",
             color=0xffdc5d
         )
         embed.set_author(
