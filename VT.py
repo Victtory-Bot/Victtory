@@ -71,8 +71,8 @@ async def on_message(message):
 
     if message.content.startswith("!주간"):
         embed = discord.Embed(
-            title="2019/10/30-11/05",
-            description="- 던전: 이단의 구덩이\n- 새로운 PvP모드: 탄력 제어\n- 경이 퀘스트: 제노파지",
+            title="2019/11/06-11/12",
+            description="- 구원의 정원 챌린지 현상금 추가\n강철 깃발, 용맹 점수 보너스",
             color=0xffdc5d
         )
         embed.set_author(
@@ -82,40 +82,44 @@ async def on_message(message):
         )
         embed.add_field(
             name="화약고",
-            value="네소스"
+            value="타이탄"
         )
         embed.add_field(
             name="꿈의 도시 저주",
-            value="3주차"
+            value="1주차"
         )
         embed.add_field(
             name="승천",
-            value="아펠리온의 무덤"
+            value="에실라의 정원"
         )
         embed.add_field(
             name="시련의 장",
-            value="4 vs 4 대결\n6 vs 6 탄력 제어"
+            value="강철 깃발\n4 vs 4 카운트다운\n6 vs 6 탄력 제어"
         )
         embed.add_field(
             name="거미 현상금",
-            value="방화범 발루스\n(수성)"
+            value="아르카디아의 노래\n(네소스)"
         )
         embed.add_field(
             name="확대 프로토콜",
-            value="IKELOS_SR_v1.0.1"
+            value="IKELOS_SG_v1.0.1\nIKELOS_SMG_v1.0.1\nIKELOS_SR_v1.0.1"
         )
         embed.add_field(
             name="영웅 전시장｜결단의 장소",
-            value="하사피코(미노타우르)｜검(기사)"
+            value="아루낙(오우거)｜오릭스의 화상"
         )
         embed.add_field(
+            name="황혼전: 시련",
+            value="생소한 지형"
+        )        
+        embed.add_field(
             name="황혼전",
-            value="<:Exotic:615302557312614523> 트리크로마티카 - 뒤집어진 첨탑\n<:Legendary:615302557535043635> 의무감 - 사바툰의 노래\n<:Legendary:615302557535043635> 감시관의 법률 - 무의 감시관"
+            value="<:Legendary:615302557535043635> D.F.A - 확률의 나무\n<:Exotic:615302557312614523> 벌레 신 현신 - 수천 명의 의지\n<:Legendary:615302557535043635> ??? - 벌레 소굴"
         )
         embed.add_field(
             name="레이드",
-            value="""슬픔의 왕관: 제한된 축복\n과거의 고통: 현상 유지\n마지막 소원: 기억의 힘
-            \n리바이어던\n┖ 순서  <:Dog:615302624329072700><:Baths:615302624434061506><:Gauntlet_challenge:618556999419953174><:Throne:615302624027082776>\n┖ 고급  <:Modifier_2:616007448070717450>검투사 + 산탄총/자동 소총/로켓 발사기"""
+            value="""슬픔의 왕관: 완전한 승리\n과거의 고통: 하나는 모두를 위해….\n마지막 소원: 소환 의식
+            \n리바이어던\n┖ 순서  <:Baths:615302624434061506><:Gauntlet_challenge:618556999419953174><:Dog_challenge:621097232971726879><:Throne:615302624027082776>\n┖ 고급  <:Modifier_3:618557788553084970>프리즘 + 핸드 캐논/저격총/아무거나"""
         )
         await message.channel.send(embed=embed)
 
