@@ -123,7 +123,7 @@ async def on_message(message):
         embed.add_field(
             name="레이드",
             value="""슬픔의 왕관: 완전한 승리\n과거의 고통: 하나는 모두를 위해….\n마지막 소원: 소환 의식
-            \n리바이어던\n┖ 순서  <:Baths:615302624434061506><:Gauntlet_challenge:618556999419953174><:Dog_challenge:621097232971726879><:Throne:615302624027082776>\n┖ 고급  <:Modifier_3:618557788553084970>프리즘 + 핸드 캐논/저격총/아무거나"""
+            \n리바이어던\n┖ 순서  <:Baths:615302624434061506><:Gauntlet:615302624438255723><:Dog_challenge:621097232971726879><:Throne:615302624027082776>\n┖ 고급  <:Modifier_3:618557788553084970>프리즘 + 핸드 캐논/저격총/아무거나"""
         )
         await message.channel.send(embed=embed)
 
