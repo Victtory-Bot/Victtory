@@ -53,7 +53,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="시즌레벨",
-            value="Lv.5"
+            value="Lv.6(최대)"
         )
         embed.add_field(
             name="관리자",
