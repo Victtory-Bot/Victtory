@@ -105,20 +105,12 @@ async def on_message(message):
             value="IKELOS_SG_v1.0.1\nIKELOS_SMG_v1.0.1\nIKELOS_SR_v1.0.1"
         )
         embed.add_field(
-            name="영웅 전시장",
-            value="아루낙(오우거)"
-        )
-        embed.add_field(
-            name="결단의 장소",
-            value="오릭스의 화상"
-        )     
-        embed.add_field(
-            name="황혼전: 시련",
-            value="생소한 지형"
-        )        
+            name="영웅 전시장｜결단의 장소",
+            value="아루낙(오우거)｜오릭스의 화상"
+        )  
         embed.add_field(
             name="황혼전",
-            value="<:Legendary:615302557535043635> D.F.A - 확률의 나무\n<:Exotic:615302557312614523> 벌레 신 현신 - 수천 명의 의지\n<:Legendary:615302557535043635> ??? - 벌레 소굴"
+            value="<:Ordeal:641852705815658506> 시련 - 생소한 지형<:Legendary:615302557535043635> D.F.A - 확률의 나무\n<:Exotic:615302557312614523> 벌레 신 현신 - 수천 명의 의지\n<:Legendary:615302557535043635> ??? - 벌레 소굴"
         )
         embed.add_field(
             name="레이드",
