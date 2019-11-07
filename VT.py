@@ -106,7 +106,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="영웅 전시장｜결단의 장소",
-            value="아루낙(오우거)｜오릭스의 화상"
+            value="아루낙(오우거)｜오릭스의 화"
         )
         embed.add_field(
             name="황혼전: 시련",
