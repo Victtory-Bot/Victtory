@@ -57,7 +57,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="관리자",
-            value="빅깨#3412, 감우#3634<:battle_net:615300518847315971>"
+            value="빅깨, 감우"
         )
         embed.add_field(
             name="디스코드",
@@ -72,7 +72,7 @@ async def on_message(message):
     if message.content.startswith("!주간"):
         embed = discord.Embed(
             title="2019/11/06-11/12",
-            description="- 구원의 정원 챌린지 현상금 추가\n강철 깃발, 용맹 점수 보너스",
+            description="- 구원의 정원 챌린지 현상금 추가\n- 강철 깃발, 용맹 점수 보너스",
             color=0xffdc5d
         )
         embed.set_author(
@@ -108,6 +108,14 @@ async def on_message(message):
             name="영웅 전시장｜결단의 장소",
             value="아루낙(오우거)｜오릭스의 화상"
         )
+        embed.add_field(
+            name="",
+            value=""
+        )    
+        embed.add_field(
+            name="",
+            value=""
+        )        
         embed.add_field(
             name="황혼전: 시련",
             value="생소한 지형"
