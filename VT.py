@@ -110,7 +110,7 @@ async def on_message(message):
         )  
         embed.add_field(
             name="황혼전",
-            value="<:Ordeal:641852705815658506> 시련 - 생소한 지형<:Legendary:615302557535043635> D.F.A - 확률의 나무\n<:Exotic:615302557312614523> 벌레 신 현신 - 수천 명의 의지\n<:Legendary:615302557535043635> ??? - 벌레 소굴"
+            value="<:Ordeal:641852705815658506> 시련 - 생소한 지형\n<:Legendary:615302557535043635> D.F.A - 확률의 나무\n<:Exotic:615302557312614523> 벌레 신 현신 - 수천 명의 의지\n<:Legendary:615302557535043635> ??? - 벌레 소굴"
         )
         embed.add_field(
             name="레이드",
