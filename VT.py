@@ -49,15 +49,15 @@ async def on_message(message):
         )
         embed.add_field(
             name="인원",
-            value="45명"
+            value="48명"
         )
         embed.add_field(
             name="시즌레벨",
-            value="Lv.6(최대)"
+            value="Lv.1(최대)"
         )
         embed.add_field(
             name="관리자",
-            value="빅깨, 감우"
+            value="빅깨, 감우, "
         )
         embed.add_field(
             name="디스코드",
@@ -66,56 +66,6 @@ async def on_message(message):
         embed.add_field(
             name="오픈채팅",
             value="Click [link](https://open.kakao.com/o/g4Jv7Ywb)"
-        )
-        await message.channel.send(embed=embed)
-
-    if message.content.startswith("!주간"):
-        embed = discord.Embed(
-            title="2019/11/06-11/12",
-            description="- 구원의 정원 챌린지 현상금 추가\n- 강철 깃발, 용맹 점수 보너스",
-            color=0xffdc5d
-        )
-        embed.set_author(
-            name="주간 리셋",
-            url="",
-            icon_url=""
-        )
-        embed.add_field(
-            name="화약고",
-            value="타이탄"
-        )
-        embed.add_field(
-            name="꿈의 도시 저주",
-            value="1주차"
-        )
-        embed.add_field(
-            name="승천",
-            value="에실라의 정원"
-        )
-        embed.add_field(
-            name="시련의 장",
-            value="강철 깃발\n4 vs 4 카운트다운\n6 vs 6 탄력 제어"
-        )
-        embed.add_field(
-            name="거미 현상금",
-            value="아르카디아의 노래\n(네소스)"
-        )
-        embed.add_field(
-            name="확대 프로토콜",
-            value="IKELOS_SG_v1.0.1\nIKELOS_SMG_v1.0.1\nIKELOS_SR_v1.0.1"
-        )
-        embed.add_field(
-            name="영웅 전시장｜결단의 장소",
-            value="아루낙(오우거)｜오릭스의 화상"
-        )  
-        embed.add_field(
-            name="황혼전",
-            value="<:Ordeal:641852705815658506> 시련 - 생소한 지형\n<:Legendary:615302557535043635> D.F.A - 확률의 나무\n<:Exotic:615302557312614523> 벌레 신 현신 - 수천 명의 의지\n<:Legendary:615302557535043635> ??? - 벌레 소굴"
-        )
-        embed.add_field(
-            name="레이드",
-            value="""슬픔의 왕관: 완전한 승리\n과거의 고통: 하나는 모두를 위해….\n마지막 소원: 소환 의식
-            \n리바이어던\n┖ 순서  <:Baths:615302624434061506><:Gauntlet:615302624438255723><:Dog_challenge:621097232971726879><:Throne:615302624027082776>\n┖ 고급  <:Modifier_3:618557788553084970>프리즘 + 핸드 캐논/저격총/아무거나"""
         )
         await message.channel.send(embed=embed)
 
@@ -523,113 +473,7 @@ async def on_message(message):
             inline=False
         )
         await message.channel.send(embed=embed)        
-        
-    if message.content.startswith("!도램쥐"):
-        embed = discord.Embed(
-            title="도램쥐",
-            description="""종합 게임 스트리머\n방송시간: 수, 목 저녁 9시 이후""",
-            color=0xffdc5d
-        )
-        embed.set_thumbnail(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/624262658547384336/drg.png"
-        )
-        embed.add_field(
-            name="Twitch",
-            value="[팔로우](https://www.twitch.tv/s2doram_g)"
-        )
-        embed.add_field(
-            name="YouTube",
-            value="[구독](https://www.youtube.com/channel/UC5EsXpxVE_4KpBQXt6CE1Bg)"
-        )
-        await message.channel.send(embed=embed)
-        
-    if message.content.startswith("!고웅"):
-        embed = discord.Embed(
-            title="고웅",
-            description="""종합 게임 스트리머""",
-            color=0xffdc5d
-        )
-        embed.set_thumbnail(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/626121408405176342/Go_woong.png"
-        )
-        embed.add_field(
-            name="Twitch",
-            value="[팔로우](https://www.twitch.tv/gowoong)"
-        )
-        embed.add_field(
-            name="YouTube",
-            value="[구독](https://www.youtube.com/channel/UCKvDmMKEYTrKDXCRsxcVQaw)"
-        )        
-        embed.add_field(
-            name="Discord",
-            value="[초대](https://discord.gg/MNGnYAq)"
-        )
-        await message.channel.send(embed=embed)
-        
-    if message.content.startswith("!루엘"):
-        embed = discord.Embed(
-            title="루엘",
-            description="종합 게임 스트리머",
-            color=0xffdc5d
-        )
-        embed.set_thumbnail(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/616738998555115552/luel.png"
-        )
-        embed.add_field(
-            name="Twitch",
-            value="[팔로우](https://www.twitch.tv/lc_luel)"
-        )        
-        embed.add_field(
-            name="Youtube",
-            value="[구독](https://www.youtube.com/channel/UCShgH1SIEg44x0YonQpHeGQ)"
-        )
-        await message.channel.send(embed=embed)
-
-    if message.content.startswith("!이리구"):
-        embed = discord.Embed(
-            title="이리구",
-            description="데스티니 가디언즈 유튜버",
-            color=0xffdc5d
-        )
-        embed.set_thumbnail(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/623541077281865748/049515676baad64f.png"
-        )
-        embed.add_field(
-            name="Youtube",
-            value="[구독](https://www.youtube.com/channel/UCui7NEHSbLiblR3Ttd8fVlw)"
-        )
-        await message.channel.send(embed=embed)        
-
-    if message.content.startswith("!핀치"):
-        embed = discord.Embed(
-            title="핀치",
-            description="배틀그라운드 스트리머",
-            color=0xffdc5d
-        )
-        embed.set_thumbnail(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/623554300140060682/pinch.jpg"
-        )
-        embed.add_field(
-            name="Twitch",
-            value="[팔로우](https://www.twitch.tv/pinchtv_)"
-        )                                  
-        embed.add_field(
-            name="Youtube",
-            value="[구독](https://www.youtube.com/channel/UCZq4YyjDXSLbOQB9XLFT1Pg)"
-        )
-        await message.channel.send(embed=embed)
-        
-    if message.content.startswith("!비버"):
-        embed = discord.Embed(
-            title="어쨌든술집",
-            description="""서울 영등포구 당산로47길 12 1층\n\n· 평일 19:00 - 02:00\n· 주말 19:00 - 02:00\n· 일요일 휴무\n\n???: 김가무 지인 할인 어림두 없지ㅋ""",
-            color=0xffdc5d
-        )
-        embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/619045666789916712/bb.png"
-        )        
-        await message.channel.send(embed=embed)         
-        
+                
     if message.content.startswith("!캘린더"):
         embed = discord.Embed(
             title="캘린더",
@@ -659,27 +503,27 @@ async def on_message(message):
             color=0xffdc5d
         )
         embed.add_field(
-            name="스쿼드",
-            value="[스쿼드 채널에서 화면 공유](http://discordapp.com/channels/333653458681069578/610331274544021505)"
+            name="PUBG",
+            value="[스쿼드](http://discordapp.com/channels/333653458681069578/619032688564764702)"
         )
         embed.add_field(
-            name="화력팀",
-            value="[화력팀 채널에서 화면 공유](http://discordapp.com/channels/333653458681069578/564580117720858625)"
+            name="DESTINY2",
+            value="[화력팀](http://discordapp.com/channels/333653458681069578/564580117720858625)"
         )
         embed.add_field(
-            name="만담방",
-            value="[만담방 채널에서 화면 공유](http://discordapp.com/channels/333653458681069578/582517225412624385)"
+            name="APEX",
+            value="[챔피언](http://discordapp.com/channels/333653458681069578/650988798204706827)"
         )
         embed.add_field(
-            name="블소",
-            value="[블소 채널에서 화면 공유](http://discordapp.com/channels/333653458681069578/619032688564764702)"
+            name="TALK",
+            value="[만담방](http://discordapp.com/channels/333653458681069578/582517225412624385)"
         )
         await message.channel.send(embed=embed)        
 
     if message.content.startswith("!계정이관"):
         embed = discord.Embed(
             title="계정 이관",
-            description="""10월 2일, 데스티니 가디언즈 PC가 Steam으로 이동합니다. 아래 링크를 눌러 이관 신청을 완료해주세요.""",
+            description="""데스티니 가디언즈 PC가 Steam으로 이동합니다. 아래 링크를 눌러 이관 신청을 완료해주세요.""",
             color=0xffdc5d
         )
         embed.add_field(
