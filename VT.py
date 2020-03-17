@@ -49,15 +49,15 @@ async def on_message(message):
         )
         embed.add_field(
             name="인원",
-            value="48명"
+            value="35명"
         )
         embed.add_field(
             name="시즌레벨",
-            value="Lv.1(최대)"
+            value="Lv.1"
         )
         embed.add_field(
             name="관리자",
-            value="빅깨, 감우, "
+            value="빅깨, 감우, 또치"
         )
         embed.add_field(
             name="디스코드",
@@ -481,7 +481,7 @@ async def on_message(message):
             color=0xffdc5d
         )
         embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/654619517548494858/ag_season9_calendar_16x9_KO.png"
+            url="https://cdn.discordapp.com/attachments/615212078453751818/689434505270132824/Destiny_SoW_Calendar_KR.jpg"
         )        
         await message.channel.send(embed=embed)    
 
