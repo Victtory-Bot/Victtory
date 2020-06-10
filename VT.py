@@ -481,7 +481,7 @@ async def on_message(message):
             color=0xffdc5d
         )
         embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/689434505270132824/Destiny_SoW_Calendar_KR.jpg"
+            url="https://cdn.discordapp.com/attachments/615212078453751818/720099868655353866/S11_Calendar_Calendar_ko.jpg"
         )        
         await message.channel.send(embed=embed)    
 
