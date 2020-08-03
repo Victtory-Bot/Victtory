@@ -527,7 +527,7 @@ async def on_message(message):
             color=0xffdc5d
         )
         embed.add_field(
-            name="PC 이동",
+            name="PC 이",
             value="[https://www.bungie.net/7/ko/PCMove](https://www.bungie.net/7/ko/PCMove)"
         )
         await message.channel.send(embed=embed)      
