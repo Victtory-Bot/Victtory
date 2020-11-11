@@ -166,6 +166,16 @@ async def on_message(message):
         await msg.add_reaction("🅾") #fourteenth
         await msg.add_reaction("⛔") #fifteenth
 
+        def check(reaction, user):
+            return user == message.author and str(reaction.emoji) == '1️⃣'
+
+        try:
+            reaction, user = await client.wait_for('reaction_add', timeout=60.0, check=check)
+        except asyncio.TimeoutError:
+            await channel.send('👎')
+        else:
+            await channel.send('👍')
+        
     if message.content.startswith("!first"):
         embed = discord.Embed(
             title="첫 번째 소원",
