@@ -90,7 +90,7 @@ async def on_message(message):
             color=0xffdc5d
         )
         embed.add_field(
-            name="1️⃣",
+            name="",
             value="에테르 열쇠"
         )
         embed.add_field(
@@ -149,8 +149,8 @@ async def on_message(message):
             name="!fifteenth",
             value="샤크스 경 빙의"
         )
-        msg = await message.channel.send(embed=embed)
-        await msg.add_reaction("1️⃣")
+        await message.channel.send(embed=embed)
+
         
     if message.content.startswith("!first"):
         embed = discord.Embed(
@@ -535,13 +535,6 @@ async def on_message(message):
             value="[https://www.bungie.net/7/ko/PCMove](https://www.bungie.net/7/ko/PCMove)"
         )
         await message.channel.send(embed=embed)
-        
-@client.event
-async def on_reaction_add(reaction, user):
-    if user.bot == 1: #봇이면 패스
-        return None
-    if str(reaction.emoji) == "1️⃣":
-        await reaction.message.channel.send("!first")        
         
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
