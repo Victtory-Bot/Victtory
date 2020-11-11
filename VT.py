@@ -90,7 +90,7 @@ async def on_message(message):
             color=0xffdc5d
         )
         embed.add_field(
-            name="1️⃣",
+            name="1️⃣ 에테르 열쇠",
             value="에테르 열쇠"
         )
         embed.add_field(
@@ -170,7 +170,7 @@ async def on_message(message):
             return user == message.author and str(reaction.emoji) == '1️⃣'
 
         try:
-            reaction, user = await client.wait_for('reaction_add', timeout=60.0, check=check)
+            reaction, user = await client.wait_for('add_reaction', timeout=60.0, check=check)
         except asyncio.TimeoutError:
             await channel.send('👎')
         else:
