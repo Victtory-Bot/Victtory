@@ -33,9 +33,6 @@ async def on_ready():
 # 봇이 새로운 메시지를 수신했을때
 @client.event
 async def on_message(message):
-    if message.author.bot:  # 메시지를 보낸사람이 봇
-        return None  # 무시
-    # 특정 메세지 출력
 
     if message.content.startswith("!빅또리"):
         embed = discord.Embed(
@@ -155,8 +152,6 @@ async def on_message(message):
         
 @client.event
 async def on_reaction_add(reaction, user):
-    if user.bot == 1: #봇이면 패스
-        return None
     if str(reaction.emoji) == "1️⃣":
         await reaction.message.channel.send("!first")
     if str(reaction.emoji) == "⚔️":
