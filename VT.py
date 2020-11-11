@@ -91,13 +91,15 @@ async def on_message(message):
         )
         embed.add_field(
             name="1️⃣ 에테르 열쇠"
+            value=""
         )
         embed.add_field(
             name="2️⃣ '빛나는 열쇠' 상자"
+            value=""
         )
         embed.add_field(
-            name="3️⃣",
-            value="'파워 수' 문양"
+            name="3️⃣ '파워 수' 문양",
+            value=""
         )
         embed.add_field(
             name="4️⃣",
