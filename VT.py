@@ -2,8 +2,6 @@
 import asyncio
 import discord
 import os
-from discord.ext import commands
-from discord.ext.commands import Bot
 
 
 # 탭 넣어주는 함수
@@ -86,86 +84,70 @@ async def on_message(message):
     if message.content.startswith("!소원"):
         embed = discord.Embed(
             title="소원의 벽",
-            description="소원 목록입니다. 키워드를 찾고 그에 맞는 이모지를 클릭하세요.",
+            description="소원 목록입니다. 키워드를 찾고 그에 맞는 명령어를 입력하세요.",
             color=0xffdc5d
         )
         embed.add_field(
-            name="1️⃣ 에테르 열쇠"
-            value=""
+            name="!first",
+            value="에테르 열쇠"
         )
         embed.add_field(
-            name="2️⃣ '빛나는 열쇠' 상자"
-            value=""
+            name="!second",
+            value="'빛나는 열쇠' 상자"
         )
         embed.add_field(
-            name="3️⃣ '파워 수' 문양",
-            value=""
+            name="!third",
+            value="'파워 수' 문양"
         )
         embed.add_field(
-            name="4️⃣",
+            name="!fourth",
             value="슈로 치"
         )
         embed.add_field(
-            name="5️⃣",
+            name="!fifth",
             value="모르게스"
         )
         embed.add_field(
-            name="6️⃣",
+            name="!sixth",
             value="금고"
         )
         embed.add_field(
-            name="7️⃣",
+            name="!seventh",
             value="리븐"
         )
         embed.add_field(
-            name="8️⃣",
+            name="!eighth",
             value="음악 재생"
         )
         embed.add_field(
-            name="9️⃣",
+            name="!ninth",
             value="안전장치 빙의"
         )
         embed.add_field(
-            name="🔟",
+            name="!tenth",
             value="방랑자 빙의"
         )
         embed.add_field(
-            name="🅰",
+            name="!eleventh",
             value="폭죽 놀이"
         )
         embed.add_field(
-            name="🅱",
+            name="!twelfth",
             value="가면 축제"
         )
         embed.add_field(
-            name="🆎",
+            name="!thirteenth",
             value="페트라의 경주"
         )
         embed.add_field(
-            name="🅾",
+            name="!fourteenth",
             value="부패한 알"
         )
         embed.add_field(
-            name="⛔",
+            name="!fifteenth",
             value="샤크스 경 빙의"
         )
         await message.channel.send(embed=embed)
-        await msg.add_reaction("1️⃣") #first
-        await msg.add_reaction("2️⃣") #second
-        await msg.add_reaction("3️⃣") #third
-        await msg.add_reaction("4️⃣") #fourth
-        await msg.add_reaction("5️⃣") #fifth
-        await msg.add_reaction("6️⃣") #sixth
-        await msg.add_reaction("7️⃣") #seventh
-        await msg.add_reaction("8️⃣") #eighth
-        await msg.add_reaction("9️⃣") #ninth
-        await msg.add_reaction("🔟") #tenth
-        await msg.add_reaction("🅰") #eleventh
-        await msg.add_reaction("🅱") #twelfth
-        await msg.add_reaction("🆎") #thirteenth
-        await msg.add_reaction("🅾") #fourteenth
-        await msg.add_reaction("⛔") #fifteenth
-
         
     if message.content.startswith("!first"):
         embed = discord.Embed(
