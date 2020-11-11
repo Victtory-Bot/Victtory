@@ -2,8 +2,6 @@
 import asyncio
 import discord
 import os
-from discord.ext import commands
-from discord.ext.commands import Bot
 
 
 # 탭 넣어주는 함수
