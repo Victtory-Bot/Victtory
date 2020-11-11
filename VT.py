@@ -146,7 +146,7 @@ async def on_message(message):
             name="⛔",
             value="샤크스 경 빙의"
         )
-        await message.channel.send(embed=embed)
+        msg = await message.channel.send(embed=embed)
         await msg.add_reaction("1️⃣") #first
         await msg.add_reaction("2️⃣") #second
         await msg.add_reaction("3️⃣") #third
