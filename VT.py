@@ -90,7 +90,7 @@ async def on_message(message):
             color=0xffdc5d
         )
         embed.add_field(
-            name="",
+            name="!first",
             value="에테르 열쇠"
         )
         embed.add_field(
