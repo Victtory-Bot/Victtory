@@ -87,66 +87,81 @@ async def on_message(message):
             color=0xffdc5d
         )
         embed.add_field(
-            name="!first",
+            name="1️⃣",
             value="에테르 열쇠"
         )
         embed.add_field(
-            name="!second",
+            name="2️⃣",
             value="'빛나는 열쇠' 상자"
         )
         embed.add_field(
-            name="!third",
+            name="3️⃣",
             value="'파워 수' 문양"
         )
         embed.add_field(
-            name="!fourth",
+            name="4️⃣",
             value="슈로 치"
         )
         embed.add_field(
-            name="!fifth",
+            name="5️⃣",
             value="모르게스"
         )
         embed.add_field(
-            name="!sixth",
+            name="6️⃣",
             value="금고"
         )
         embed.add_field(
-            name="!seventh",
+            name="7️⃣",
             value="리븐"
         )
         embed.add_field(
-            name="!eighth",
+            name="8️⃣",
             value="음악 재생"
         )
         embed.add_field(
-            name="!ninth",
+            name="9️⃣",
             value="안전장치 빙의"
         )
         embed.add_field(
-            name="!tenth",
+            name="🔟",
             value="방랑자 빙의"
         )
         embed.add_field(
-            name="!eleventh",
+            name="🅰",
             value="폭죽 놀이"
         )
         embed.add_field(
-            name="!twelfth",
+            name="🅱",
             value="가면 축제"
         )
         embed.add_field(
-            name="!thirteenth",
+            name="🆎",
             value="페트라의 경주"
         )
         embed.add_field(
-            name="!fourteenth",
+            name="🅾",
             value="부패한 알"
         )
         embed.add_field(
-            name="!fifteenth",
+            name="⛔",
             value="샤크스 경 빙의"
         )
         await message.channel.send(embed=embed)
+        await msg.add_reaction("") #first
+        await msg.add_reaction("") #second
+        await msg.add_reaction("") #third
+        await msg.add_reaction("") #fourth
+        await msg.add_reaction("") #fifth
+        await msg.add_reaction("") #sixth
+        await msg.add_reaction("") #seventh
+        await msg.add_reaction("") #eighth
+        await msg.add_reaction("") #ninth
+        await msg.add_reaction("") #tenth
+        await msg.add_reaction("") #eleventh
+        await msg.add_reaction("") #twelfth
+        await msg.add_reaction("") #thirteenth
+        await msg.add_reaction("") #fourteenth
+        await msg.add_reaction("") #fifteenth
 
     if message.content.startswith("!first"):
         embed = discord.Embed(
