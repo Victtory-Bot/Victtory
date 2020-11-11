@@ -152,6 +152,8 @@ async def on_message(message):
         msg = await message.channel.send(embed=embed)
         await msg.add_reaction("1️⃣")
 
+        
+@client.event
 async def on_reaction_add(reaction, user):
     if user.bot == 1: #봇이면 패스
         return None
