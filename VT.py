@@ -2,6 +2,8 @@
 import asyncio
 import discord
 import os
+from discord.ext import commands
+from discord.ext.commands import Bot
 
 
 # 탭 넣어주는 함수
@@ -88,7 +90,7 @@ async def on_message(message):
             color=0xffdc5d
         )
         embed.add_field(
-            name="!first",
+            name="1️⃣",
             value="에테르 열쇠"
         )
         embed.add_field(
@@ -147,7 +149,17 @@ async def on_message(message):
             name="!fifteenth",
             value="샤크스 경 빙의"
         )
-        await message.channel.send(embed=embed)
+        msg = await message.channel.send(embed=embed)
+        await msg.add_reaction("1️⃣")
+
+async def on_reaction_add(reaction, user):
+    if user.bot == 1: #봇이면 패스
+        return None
+    if str(reaction.emoji) == "1️⃣":
+        await reaction.message.channel.send(user.name + "님이 step 아이템을 구매")
+    if str(reaction.emoji) == "⚔️":
+        await reaction.message.channel.send(user.name + "님이 stun 아이템을 구매")        
+        
         
     if message.content.startswith("!first"):
         embed = discord.Embed(
