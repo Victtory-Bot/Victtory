@@ -156,7 +156,7 @@ async def on_reaction_add(reaction, user):
     if user.bot == 1: #봇이면 패스
         return None
     if str(reaction.emoji) == "1️⃣":
-        await reaction.message.channel.send(embed.set_image(url="https://cdn.discordapp.com/attachments/615212078453751818/615212895009243141/shattered_throne.png"))
+        await reaction.message.channel.send(user.name + "님이 stun 아이템을 구매")
     if str(reaction.emoji) == "⚔️":
         await reaction.message.channel.send(user.name + "님이 stun 아이템을 구매")        
         
