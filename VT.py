@@ -33,6 +33,9 @@ async def on_ready():
 # 봇이 새로운 메시지를 수신했을때
 @client.event
 async def on_message(message):
+    if message.author.bot:  # 메시지를 보낸사람이 봇
+        return None  # 무시
+    # 특정 메세지 출력
 
     if message.content.startswith("!빅또리"):
         embed = discord.Embed(
@@ -148,15 +151,6 @@ async def on_message(message):
         )
         msg = await message.channel.send(embed=embed)
         await msg.add_reaction("1️⃣")
-
-        
-@client.event
-async def on_reaction_add(reaction, user):
-    if str(reaction.emoji) == "1️⃣":
-        await reaction.message.channel.send("!first")
-    if str(reaction.emoji) == "⚔️":
-        await reaction.message.channel.send(user.name + "님이 stun 아이템을 구매")        
-        
         
     if message.content.startswith("!first"):
         embed = discord.Embed(
@@ -540,7 +534,14 @@ async def on_reaction_add(reaction, user):
             name="PC 이",
             value="[https://www.bungie.net/7/ko/PCMove](https://www.bungie.net/7/ko/PCMove)"
         )
-        await message.channel.send(embed=embed)      
+        await message.channel.send(embed=embed)
+        
+@client.event
+async def on_reaction_add(reaction, user):
+    if user.bot == 1: #봇이면 패스
+        return None
+    if str(reaction.emoji) == "1️⃣":
+        await reaction.message.channel.send("!first")        
         
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
