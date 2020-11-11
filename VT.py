@@ -147,21 +147,21 @@ async def on_message(message):
             value="샤크스 경 빙의"
         )
         await message.channel.send(embed=embed)
-        await msg.add_reaction("") #first
-        await msg.add_reaction("") #second
-        await msg.add_reaction("") #third
-        await msg.add_reaction("") #fourth
-        await msg.add_reaction("") #fifth
-        await msg.add_reaction("") #sixth
-        await msg.add_reaction("") #seventh
-        await msg.add_reaction("") #eighth
-        await msg.add_reaction("") #ninth
-        await msg.add_reaction("") #tenth
-        await msg.add_reaction("") #eleventh
-        await msg.add_reaction("") #twelfth
-        await msg.add_reaction("") #thirteenth
-        await msg.add_reaction("") #fourteenth
-        await msg.add_reaction("") #fifteenth
+        await msg.add_reaction("1️⃣") #first
+        await msg.add_reaction("2️⃣") #second
+        await msg.add_reaction("3️⃣") #third
+        await msg.add_reaction("4️⃣") #fourth
+        await msg.add_reaction("5️⃣") #fifth
+        await msg.add_reaction("6️⃣") #sixth
+        await msg.add_reaction("7️⃣") #seventh
+        await msg.add_reaction("8️⃣") #eighth
+        await msg.add_reaction("9️⃣") #ninth
+        await msg.add_reaction("🔟") #tenth
+        await msg.add_reaction("🅰") #eleventh
+        await msg.add_reaction("🅱") #twelfth
+        await msg.add_reaction("🆎") #thirteenth
+        await msg.add_reaction("🅾") #fourteenth
+        await msg.add_reaction("⛔") #fifteenth
 
     if message.content.startswith("!first"):
         embed = discord.Embed(
