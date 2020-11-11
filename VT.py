@@ -86,7 +86,7 @@ async def on_message(message):
     if message.content.startswith("!소원"):
         embed = discord.Embed(
             title="소원의 벽",
-            description="소원 목록입니다. 키워드를 찾고 그에 맞는 명령어를 입력하세요.",
+            description="소원 목록입니다. 키워드를 찾고 그에 맞는 이모지를 클릭하세요.",
             color=0xffdc5d
         )
         embed.add_field(
