@@ -90,12 +90,10 @@ async def on_message(message):
             color=0xffdc5d
         )
         embed.add_field(
-            name="1️⃣ 에테르 열쇠",
-            value="에테르 열쇠"
+            name="1️⃣ 에테르 열쇠"
         )
         embed.add_field(
-            name="2️⃣",
-            value="'빛나는 열쇠' 상자"
+            name="2️⃣ '빛나는 열쇠' 상자"
         )
         embed.add_field(
             name="3️⃣",
