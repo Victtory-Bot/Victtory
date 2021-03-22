@@ -35,40 +35,6 @@ async def on_message(message):
         return None  # 무시
     # 특정 메세지 출력
 
-    if message.content.startswith("!빅또리"):
-        embed = discord.Embed(
-            title="클랜소개",
-            description="햄보카자 아프지망고(KT위즈랑 노상관)",
-            color=0xffdc5d
-        )
-        embed.set_thumbnail(
-            url="https://cdn.discordapp.com/attachments/600270081729101824/615203635286245386/banner.png"
-        )
-        embed.add_field(
-            name="생성일",
-            value="2018/10/13"
-        )
-        embed.add_field(
-            name="인원",
-            value="35명"
-        )
-        embed.add_field(
-            name="시즌레벨",
-            value="Lv.1"
-        )
-        embed.add_field(
-            name="관리자",
-            value="빅깨, 감우, 또치"
-        )
-        embed.add_field(
-            name="디스코드",
-            value="Click [link](https://discord.gg/htZYs4r)"
-        )
-        embed.add_field(
-            name="오픈채팅",
-            value="Click [link](https://open.kakao.com/o/g4Jv7Ywb)"
-        )
-        await message.channel.send(embed=embed)
 
     if message.content.startswith("!조왕"):
         embed = discord.Embed(
@@ -348,32 +314,7 @@ async def on_message(message):
             name="검",
             value="""고독(보조 무기)\n만약의 경우(검)\n불침번(정찰 소총)\n유일한 생존자(저격총)\n__최후의 승자(산탄총)__"""
         )
-        await message.channel.send(embed=embed)
-
-    if message.content.startswith("!영웅"):
-        embed = discord.Embed(
-            title="",
-            description="",
-            color=0xffdc5d
-        )
-        embed.set_author(
-            name="일일 영웅 이야기｜Click here",
-            url="http://www.inven.co.kr/board/destinyguardians/5316/3768",
-            icon_url=""
-        )
-        embed.add_field(
-            name="임무",
-            value="\n".join(["1AU", "강탈", "경멸자", "고리", "관문", "귀향", "기술자", "깊이 숨겨진 것", "마지막 부름", "__무시무시한 시험 ★__", "무한 그 너머에", "보복", "분노", "불꽃", "__불패 ★__", "선택받은 자", "순례", "식스", "신성 모독", "__얼음과 그림자 ★__", "연소", "오메가", "유구무언", "유토피아", "작별", "절도", "조류", "출입구", "평원의 노래", "행성 밖 회복", "희망"])
-        )
-        embed.add_field(
-            name="소요시간",
-            value="\n".join(["13 mins", "6 mins", "13 mins", "7 mins", "6 mins", "-", "12 mins", "7 mins", "15 mins", "__5 mins__", "11 mins", "11 mins", "8 mins", "-", "__4 mins__", "9 mins", "6 mins", "10 mins", "6 mins", "__3 mins__", "7 mins", "12 mins", "12 mins", "8 mins", "-", "7 mins", "10 mins", "6 mins", "9 mins", "7 mins", "7 mins"])
-        )
-        embed.add_field(
-            name="세계기록",
-            value="\n".join(["5m 23s", "3m 17s", "4m 29s", "3m 17s", "2m 58s", "-", "5m 32s", "3m 22s", "9m 02s", "__2m 47s__", "6m 28s", "3m 48s", "4m 25s", "-", "__1m 59s__", "4m 32s", "3m 37s", "4m 02s", "3m 28s", "__1m 38s__", "3m 11s", "6m 37s", "4m 33s", "4m 49s", "-", "3m 13s", "2m 59s", "-", "6m 06s", "3m 10s", "2m 52s"])
-        )
-        await message.channel.send(embed=embed)
+        await message.channel.send(embed=embed)  
 
     if message.content.startswith("!정찰"):
         embed = discord.Embed(
@@ -420,10 +361,15 @@ async def on_message(message):
             inline=False
         )
         embed.add_field(
-            name="이슈타르 컬렉티브｜D1부터 D2까지 존재하는 모든 로어",
-            value="[ishtar-collective.net](https://www.ishtar-collective.net/)",
+            name="데스티니 아이템 매니저(DIM)｜아이템 이동과 로드아웃 지원",
+            value="[destinyitemmanager.com](https://destinyitemmanager.com/)",
             inline=False
         )
+        embed.add_field(
+            name="리셋데가｜일일·주간 도전 정보",
+            value="[destinyitemmanager.com](https://destinyitemmanager.com/)",
+            inline=False
+        )        
         embed.add_field(
             name="체크리스트｜일일·주간 도전 현황",
             value="[d2checklist.com](https://www.d2checklist.com/home)",
@@ -445,33 +391,8 @@ async def on_message(message):
             inline=False
         )
         embed.add_field(
-            name="로우라이뎁｜상호 작용 가능한 모든 사물·지식의 위치",
-            value="[lowlidev.com.au/destiny](https://lowlidev.com.au/destiny/)",
-            inline=False
-        )
-        embed.add_field(
             name="라이트지지｜인게임에선 알 수 없는 무기의 히든스탯까지",
             value="[light.gg](https://www.light.gg/)",
-            inline=False
-        )
-        embed.add_field(
-            name="히트맵｜월별·일별·활동별 플레이 타임",
-            value="[chrisfried.github.io/secret-scrublandeux](https://chrisfried.github.io/secret-scrublandeux/)",
-            inline=False
-        )
-        embed.add_field(
-            name="데스티니 아이템 매니저(DIM)｜아이템 이동과 로드아웃 지원",
-            value="[destinyitemmanager.com](https://destinyitemmanager.com/)",
-            inline=False
-        )
-        embed.add_field(
-            name="데스티니 가디언즈 Teams｜대규모 디스코드 커뮤니티",
-            value="[discord.gg/uX4WtSC](https://discord.gg/uX4WtSC)",
-            inline=False
-        )
-        embed.add_field(
-            name="번지넷｜공식 홈페이지",
-            value="[bungie.net/ko](https://www.bungie.net/ko)",
             inline=False
         )
         await message.channel.send(embed=embed)        
