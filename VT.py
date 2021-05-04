@@ -25,7 +25,7 @@ client = discord.Client()
 async def on_ready():
     print(client.user.id)
     print("ready")
-    game = discord.Game("냉동 캡슐 속 클랜원 체크")
+    game = discord.Game("궤도에서 합류 기다리는")
     await client.change_presence(status=discord.Status.online, activity=game)
 
 # 봇이 새로운 메시지를 수신했을때
