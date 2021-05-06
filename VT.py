@@ -367,7 +367,7 @@ async def on_message(message):
         )
         embed.add_field(
             name="리셋데가｜일일·주간 도전 정보",
-            value="[resetde.ga](https://resetde.ga/main)",
+            value="[d2reset.kr](https://d2reset.kr/)",
             inline=False
         )        
         embed.add_field(
