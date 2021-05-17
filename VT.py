@@ -371,6 +371,11 @@ async def on_message(message):
             inline=False
         )        
         embed.add_field(
+            name="건스미스｜총기 정보",
+            value="[d2gunsmith.com](https://d2gunsmith.com/)",
+            inline=False
+        )            
+        embed.add_field(
             name="체크리스트｜일일·주간 도전 현황",
             value="[d2checklist.com](https://www.d2checklist.com/home)",
             inline=False
@@ -419,39 +424,14 @@ async def on_message(message):
         )        
         await message.channel.send(embed=embed)
 
-    if message.content.startswith("!화면공유"):
+    if message.content.startswith("!잊구"):
         embed = discord.Embed(
-            title="화면 공유 링크",
-            description="음성 채널에 입장한 뒤, 채널 이름과 일치하는 링크를 클릭하세요.",
-            color=0xffdc5d
+            title="잊혀진 구역",
+            description="마스터·전설 로테이션 정보",
+            color=0x532c2c
         )
-        embed.add_field(
-            name="PUBG",
-            value="[스쿼드](http://discordapp.com/channels/333653458681069578/619032688564764702)"
-        )
-        embed.add_field(
-            name="DESTINY2",
-            value="[화력팀](http://discordapp.com/channels/333653458681069578/564580117720858625)"
-        )
-        embed.add_field(
-            name="APEX",
-            value="[챔피언](http://discordapp.com/channels/333653458681069578/650988798204706827)"
-        )
-        embed.add_field(
-            name="TALK",
-            value="[만담방](http://discordapp.com/channels/333653458681069578/582517225412624385)"
-        )
-        await message.channel.send(embed=embed)        
-
-    if message.content.startswith("!계정이관"):
-        embed = discord.Embed(
-            title="계정 이관",
-            description="""데스티니 가디언즈 PC가 Steam으로 이동합니다.\n아래 링크를 눌러 이관 신청을 완료해주세요.""",
-            color=0xffdc5d
-        )
-        embed.add_field(
-            name="PC 이",
-            value="[https://www.bungie.net/7/ko/PCMove](https://www.bungie.net/7/ko/PCMove)"
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/843881811499286588/i13701795027.png"
         )
         await message.channel.send(embed=embed)
         
