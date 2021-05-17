@@ -428,7 +428,7 @@ async def on_message(message):
         embed = discord.Embed(
             title="잊혀진 구역",
             description="마스터·전설 로테이션 정보",
-            color=0x532c2c
+            color=0xffdc5d
         )
         embed.set_image(
             url="https://cdn.discordapp.com/attachments/615212078453751818/843881811499286588/i13701795027.png"
