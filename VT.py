@@ -405,11 +405,11 @@ async def on_message(message):
     if message.content.startswith("!캘린더"):
         embed = discord.Embed(
             title="캘린더",
-            description="시즌 일정",
+            description="시즌 일정 (Update 21/06/03)",
             color=0xffdc5d
         )
         embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/839142757427576922/KR.png"
+            url="https://cdn.discordapp.com/attachments/615212078453751818/849752269808992347/S14_Calendar_KR.png"
         )        
         await message.channel.send(embed=embed)    
 
