@@ -391,12 +391,12 @@ async def on_message(message):
             inline=False
         )        
         embed.add_field(
-            name="레이드 리포트｜던전 기록",
+            name="던전 리포트｜던전 기록",
             value="[dungeon.report](https://dungeon.report/)",
             inline=False
         )        
         embed.add_field(
-            name="트래커 네트워크｜시련의 장 전적",
+            name="TRN｜시련의 장 전적",
             value="[destinytracker.com](https://destinytracker.com/)",
             inline=False
         )
