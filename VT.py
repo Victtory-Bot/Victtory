@@ -361,7 +361,7 @@ async def on_message(message):
             inline=False
         )
         embed.add_field(
-            name="데스티니 아이템 매니저(DIM)｜아이템 이동과 로드아웃 지원",
+            name="DIM｜아이템 이동과 로드아웃 지원",
             value="[destinyitemmanager.com](https://destinyitemmanager.com/)",
             inline=False
         )
@@ -371,10 +371,15 @@ async def on_message(message):
             inline=False
         )        
         embed.add_field(
+            name="TID｜에버버스 캘린더",
+            value="[todayindestiny.com/eververseCalendar](https://www.todayindestiny.com/eververseCalendar)",
+            inline=False
+        )
+        embed.add_field(
             name="건스미스｜총기 정보",
             value="[d2gunsmith.com](https://d2gunsmith.com/)",
             inline=False
-        )            
+        )        
         embed.add_field(
             name="체크리스트｜일일·주간 도전 현황",
             value="[d2checklist.com](https://www.d2checklist.com/home)",
@@ -384,7 +389,12 @@ async def on_message(message):
             name="레이드 리포트｜레이드 기록",
             value="[raid.report](https://raid.report/)",
             inline=False
-        )
+        )        
+        embed.add_field(
+            name="레이드 리포트｜던전 기록",
+            value="[dungeon.report](https://dungeon.report/)",
+            inline=False
+        )        
         embed.add_field(
             name="트래커 네트워크｜시련의 장 전적",
             value="[destinytracker.com](https://destinytracker.com/)",
