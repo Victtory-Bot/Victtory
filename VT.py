@@ -445,5 +445,15 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
         
+    if message.content.startswith("!불길의 제단"):
+        embed = discord.Embed(
+            title="불길의 제단",
+            color=0x532c2c
+        )
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/864042128928800768/864042218284384276/Altar_of_Flame.jpg"
+        )
+        await message.channel.send(embed=embed)        
+        
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
