@@ -441,7 +441,7 @@ async def on_message(message):
             color=0xffdc5d
         )
         embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/863986130151538718/i14032983329.png"
+            url="https://cdn.discordapp.com/attachments/615212078453751818/884114564457844787/i16372287033.png"
         )
         await message.channel.send(embed=embed)
                
