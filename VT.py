@@ -444,6 +444,17 @@ async def on_message(message):
             url="https://cdn.discordapp.com/attachments/615212078453751818/884114564457844787/i16372287033.png"
         )
         await message.channel.send(embed=embed)
+        
+    if message.content.startswith("!황혼"):
+        embed = discord.Embed(
+            title="황혼전",
+            description="보상 로테이션 정보",
+            color=0xffdc5d
+        )
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/890582223487655986/image0.png"
+        )
+        await message.channel.send(embed=embed)        
                
         
 access_token=os.environ["BOT_TOKEN"]
