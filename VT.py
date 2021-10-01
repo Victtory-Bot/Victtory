@@ -366,6 +366,11 @@ async def on_message(message):
             inline=False
         )
         embed.add_field(
+            name="아머 피커｜스탯 세팅",
+            value="[mijago.github.io/D2ArmorPicker](https://mijago.github.io/D2ArmorPicker/)",
+            inline=False
+        )
+        embed.add_field(
             name="리셋데가｜일일·주간 도전 정보",
             value="[d2reset.kr](https://d2reset.kr/)",
             inline=False
@@ -381,11 +386,6 @@ async def on_message(message):
             inline=False
         )        
         embed.add_field(
-            name="체크리스트｜일일·주간 도전 현황",
-            value="[d2checklist.com](https://www.d2checklist.com/home)",
-            inline=False
-        )
-        embed.add_field(
             name="레이드 리포트｜레이드 기록",
             value="[raid.report](https://raid.report/)",
             inline=False
@@ -398,16 +398,6 @@ async def on_message(message):
         embed.add_field(
             name="TRN｜시련의 장 전적",
             value="[destinytracker.com](https://destinytracker.com/)",
-            inline=False
-        )
-        embed.add_field(
-            name="워마인드｜갬빗 전적",
-            value="[warmind.io](https://warmind.io/gambit)",
-            inline=False
-        )
-        embed.add_field(
-            name="라이트지지｜인게임에선 알 수 없는 무기의 히든스탯까지",
-            value="[light.gg](https://www.light.gg/)",
             inline=False
         )
         await message.channel.send(embed=embed)        
