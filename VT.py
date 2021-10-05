@@ -438,11 +438,11 @@ async def on_message(message):
     if message.content.startswith("!황혼"):
         embed = discord.Embed(
             title="황혼전",
-            description="보상 로테이션 정보",
+            description="로테이션 정보",
             color=0xffdc5d
         )
         embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/890582223487655986/image0.png"
+            url="https://cdn.discordapp.com/attachments/615212078453751818/894966163589722122/nightfall_rotation_cut.png"
         )
         await message.channel.send(embed=embed)        
                
