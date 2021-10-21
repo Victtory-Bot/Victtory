@@ -36,7 +36,7 @@ async def on_message(message):
     # 특정 메세지 출력
 
 
-    if message.content.startswith("!조왕"):
+    if message.content.startswith("/조왕"):
         embed = discord.Embed(
             title="조각난 왕관",
             description="",
