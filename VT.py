@@ -442,7 +442,7 @@ async def on_message(message):
             color=0xffdc5d
         )
         embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/894966163589722122/nightfall_rotation_cut.png"
+            url="https://cdn.discordapp.com/attachments/615212078453751818/914915921770991626/nightfall_rotation_cut2.png"
         )
         await message.channel.send(embed=embed)        
                
