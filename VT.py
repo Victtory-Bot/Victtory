@@ -431,7 +431,7 @@ async def on_message(message):
             color=0xffdc5d
         )
         embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/915406179230969936/lost_sector12.png"
+            url="https://cdn.discordapp.com/attachments/615212078453751818/915418592856641556/lostsector.png"
         )
         await message.channel.send(embed=embed)
         
@@ -442,7 +442,7 @@ async def on_message(message):
             color=0xffdc5d
         )
         embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/915405922317238272/nightfall_rotation.png"
+            url="https://cdn.discordapp.com/attachments/615212078453751818/915418592445628416/nightfall.png"
         )
         await message.channel.send(embed=embed)        
                
