@@ -424,6 +424,17 @@ async def on_message(message):
         )        
         await message.channel.send(embed=embed)
 
+    if message.content.startswith("!원천"):
+        embed = discord.Embed(
+            title="원천",
+            description="로테이션 정보",
+            color=0xffdc5d
+        )
+        embed.set_image(
+            url="https://cdn.discordapp.com/attachments/615212078453751818/959753968723042324/4_wellspring.png"
+        )
+        await message.channel.send(embed=embed)
+        
     if message.content.startswith("!잊구"):
         embed = discord.Embed(
             title="잊혀진 구역",
@@ -431,7 +442,7 @@ async def on_message(message):
             color=0xffdc5d
         )
         embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/915418592856641556/lostsector.png"
+            url="https://cdn.discordapp.com/attachments/615212078453751818/959753968509128744/4_lost_sector.png"
         )
         await message.channel.send(embed=embed)
         
@@ -442,7 +453,7 @@ async def on_message(message):
             color=0xffdc5d
         )
         embed.set_image(
-            url="https://cdn.discordapp.com/attachments/615212078453751818/915418592445628416/nightfall.png"
+            url="https://cdn.discordapp.com/attachments/615212078453751818/959754385800441856/unknown.png"
         )
         await message.channel.send(embed=embed)        
                
