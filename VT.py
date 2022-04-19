@@ -446,7 +446,7 @@ async def on_message(message):
         )
         await message.channel.send(embed=embed)
         
-    if message.content.startswith("!황혼전"):
+    if message.content.startswith("!황혼"):
         embed = discord.Embed(
             title="황혼전",
             description="로테이션 정보",
